@@ -8,7 +8,7 @@ layout: post
 Below are the steps to launch an AWS EC2 GPU instance with Ubuntu 14.04.1 LTS, and install the ConvNet-related packages <code>Theano</code> <code>Lasagne</code> <code>nolearn</code> <code>pylearn2</code> in a <code>virtualenv</code>. We use Python 3.4 throughout.
 
 <ol>
-<li><p>Launch an AWS EC2 GPU instace (g2.2xlarge) with Ubuntu 14.04.1 LTS.</p></li>
+<li><p>Launch an AWS EC2 GPU instace (g2.2xlarge) with Ubuntu 14.04.1 LTS. Configure the SSD storage to be 30G (by default it's only 8G).</p></li>
 
 <li><p>Upgrade everything.
 <pre><code>sudo apt-get update
@@ -67,8 +67,7 @@ pip install git+https://github.com/benanne/Lasagne.git
 pip install git+https://github.com/dnouri/nolearn.git
 git clone https://github.com/lisa-lab/pylearn2.git
 cd pylearn2
-python3 setup.py develop
-</code></pre>
+python3 setup.py develop</code></pre>
 Note the way to install <code>pylearn2</code> is distinct from the other ones.</p>
 <p>Type <code>workon &lt;env&gt;</code> to enter a <code>virtualenv</code>, type <code>deactivate</code> to quit.</p></li>
 
