@@ -2,7 +2,7 @@
 title: γνώση
 email: 
 description: > # this means to ignore newlines until "baseurl:"
-  Blog in information processing
+  Blog in financial markets, trading, and more broadly information processing
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://jli05.github.io" # the base hostname & protocol for your site
 twitter_username: jli05
