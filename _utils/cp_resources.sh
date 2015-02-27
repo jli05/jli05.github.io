@@ -1,1 +1,1 @@
-cp ../lt-trading/SPX-sizing/backtest.svg _includes/lt-trading/SPX-sizing/
+cp ../lt-trading/SPX-sizing/backtest.svg assets/lt-trading/SPX-sizing/
