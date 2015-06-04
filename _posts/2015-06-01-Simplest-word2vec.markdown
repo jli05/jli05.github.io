@@ -31,6 +31,6 @@ where $\sigma(\cdot)$ is the sigmoid function.</p>
 <p>Given $\sigma'(x)=\sigma(x)\left(1-\sigma(x)\right)$,
 \[\frac{\partial E}{\partial u_j}=\begin{cases}
 -\frac{\sigma'\left(u_j\right)}{\sigma\left(u_j\right)}=\sigma\left(u_j\right)-1& \text{for $j=j^*$,}\\
-\frac{\sigma'\left(-u_j\right)}{\sigma\left(-u_j\right)}=1-\sigma\left(-u_j\right)& \text{for $j=j_1,\ldots,j_k$,}\\
+\frac{\sigma'\left(-u_j\right)}{\sigma\left(-u_j\right)}=1-\sigma\left(-u_j\right)=\sigma\left(u_j\right)& \text{for $j=j_1,\ldots,j_k$,}\\
 0& \text{otherwise.}
 \end{cases}\]</p>
