@@ -54,3 +54,22 @@ where
 \[
 \sum_{\gamma\in T*}P(\gamma)=1.
 \]</p>
+
+# Charniak (1997) Lexicalised PCFG Model
+
+<p>\[
+\begin{split}
+\hat{P}\left(h|ph,c,pc\right)=\lambda_1\left(e\right)&P_{\text{MLE}}\left(h|ph,c,pc\right)\\
++\lambda_2\left(e\right)&P_{\text{MLE}}\left(h|C\left(ph\right),c,pc\right)\\
++\lambda_3\left(e\right)&P_{\text{MLE}}\left(h|c,pc\right)\\
++\lambda_4\left(e\right)&P_{\text{MLE}}\left(h|c\right)
+\end{split}
+\]
+where $h$ is current head word, $c$ is the pre-/non-terminal symbol, $ph$, $pc$ are the parent head word, parent pre-/non-terminal symbol, $C\left(ph\right)$ is the semantic class of parent headword.</p>
+
+# Unlexicalised vs Lexicalised PCFG Parser
+
+Petrov and Klein NACCL 2007, Improved Inference for Unlexicalized Parsing
+
+Charniak & Johnson 2005, Coarse-to-fine n-best parsing and MaxEnt discriminative reranking 
+
