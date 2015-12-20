@@ -12,4 +12,8 @@ github_username:  jli05
 #markdown: kramdown
 markdown: redcarpet
 highlighter: pygments
+
+gems: [jekyll-paginate]
 paginate: 10
+paginate_path: "page:num"
+
