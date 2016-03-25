@@ -1,0 +1,13 @@
+---
+title: AAAI SS16 on Observational Studies through Social Media 
+layout: post
+---
+
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$',i'$'], ['\\(','\\)']]}});</script>
+
+The participants mainly discussed about causal inference from social media data.
+
+1. Culotta A, Robust Text Classification in the Presence of Confounding Bias, 2016
+2. Eckles D, Bias and high-dimensional adjustment in observational studies of peer effects, 2016
+3. Shmargad Y, The Monetization of Information Broadcasts: A Natural Experiment on an Online Social Network, 2016
