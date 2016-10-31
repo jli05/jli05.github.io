@@ -103,9 +103,5 @@ $$\left(W^{\top}\right)^{\dagger}=U\text{diag}\left(S^{1/2}\right).$$
 
 Note that by whitening the tensors $H_2$, $H_3$, we shrank the tensor size from $\mathbb{R}^{V\times\cdots\times V}$ to $\mathbb{R}^{k\times\cdots\times k}$.
 
-## Forming Tensors from Empirical Counts
-Given document $d$ and its word count vector $c_d\in\mathbb{R}^V$, denote the total counts $l_d=\sum_{j=1}^{V}\left(c_d\right)_j$. The contribution of $d$ to $\mathbf{E}\left[x_1\otimes x_2\right]$ is
-
-$$\frac{1}{l_d\left(l_d-1\right)}P_d=\frac{1}{l_d\left(l_d-1\right)}\Bigl[c_d\otimes c_d-\sum_{j=1}^V\left(c_d\right)_j e_j\otimes e_j\Bigr]$$
 
 
