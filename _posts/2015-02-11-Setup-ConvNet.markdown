@@ -1,5 +1,5 @@
 ---
-title: Setup a Theano-based ConvNet environment
+title: Setup a Theano-based ConvNet environment (OUTDATED)
 layout: post
 ---
 
