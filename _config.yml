@@ -14,6 +14,6 @@ github_username:  jli05
 highlighter: rouge 
 
 gems: [jekyll-paginate]
-paginate: 10
+paginate: 50 
 paginate_path: "page:num"
 
