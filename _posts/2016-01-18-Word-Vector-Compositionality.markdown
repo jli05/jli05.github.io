@@ -3,7 +3,7 @@ title: ACL 2015 Workshop on Continuous Vector Space Models and Their Composition
 layout: post
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$',i'$'], ['\\(','\\)']]}});</script>
 
 Generally I find Stephen Clark, Cambridge University and Fabio Zanzotto, University of Rome's works very important.

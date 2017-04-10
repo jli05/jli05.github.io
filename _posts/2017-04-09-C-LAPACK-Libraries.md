@@ -3,7 +3,7 @@ title: C LAPACK Libraries
 layout: post
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
 
 LAPACK, as BLAS, is written in Fortran. There're two types of C interface for the LAPACK library: CLAPACK, which is direct translation of the Fortran interfaces into C; LAPACKE, the newer standard sponsored by Intel.

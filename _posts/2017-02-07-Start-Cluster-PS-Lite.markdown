@@ -3,7 +3,7 @@ title: Start a Cluster of MXNet Parameter Server
 layout: post
 ---
 
-<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 <script type="text/x-mathjax-config">MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});</script>
 
 MXNet comes with the Parameter Server Lite `ps-lite`. Normally the Parameter Server is started by `tools/launch.py` and solely used for gradient reducing during the SGD training. In this case, all the programs run on worker nodes share the same list of arguments. 
