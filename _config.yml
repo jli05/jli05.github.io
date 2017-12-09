@@ -13,7 +13,7 @@ github_username:  jli05
 #  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
 highlighter: rouge 
 
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 paginate: 50 
 paginate_path: "page:num"
 

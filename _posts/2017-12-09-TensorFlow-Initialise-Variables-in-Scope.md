@@ -12,7 +12,7 @@ In most tutorials the variables initialisation is done with
 sess.run(tf.global_variables_initializer())
 ```
 
-However if we're running training of multiple models in a Session, we may want to do it in a finer way. To initialise variables within a specific scope,
+However if we're running training of multiple models in a Session, `global_variables_initializer()` would re-initialise all variables even if they have been trained and set. To initialise variables within a specific scope,
 
 ``` python
 var_list = tf.get_collection(tf.GraphKeys.GLOBAL_VARIABLES,
