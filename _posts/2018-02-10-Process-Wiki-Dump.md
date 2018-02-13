@@ -13,15 +13,23 @@ We could either use `xmllint`, but `xmllint` can only process small abstract-onl
 or `lxml.etree.ElementTree`. For security we should really use `defusedxml` or `defusedexpat` but they're not production-ready as of Feb 2018 and have a less rich API.
 
 ```python
-import gzip
+import bz2 
 import lxml.etree
-dumpfile = gzip.open(<dump filename>)
-tree = lxml.etree.ElementTree(file=dumpfile)
 
-for node in tree.iter(tag='{*}text'):
-    # {*} could match any namespace, which is specified
-    # by the xmlns attribute in the XML file if it exists
-    # Effectively we iterate through //{ns}page/{ns}text
+def articles_iter(dump='simplewiki-latest-pages-articles.xml.bz2',
+                  keyphrase=None):
+    ''' Extract pages with keyphrase '''
+    with bz2.open(dump) as pages:
+        # Build ElementTree from this file
+        tree = lxml.etree.ElementTree(file=pages)
 
-    # Process node.text
+        # {*} matches any namespace 
+        # if xmlns is defined in the XML doc
+        for node in tree.iter(tag='{*}text'):
+            if node.text is None:
+                continue
+            if keyphrase is None:
+                yield node.text
+            elif keyphrase in node.text:
+                yield node.text
 ```
