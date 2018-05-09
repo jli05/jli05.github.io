@@ -108,6 +108,8 @@ te, poll, zzz_republican, democrat, zzz_party, vice, candidate, candidates
  #8 | las, como, los, zzz_latin_trade, telefono, articulo, espanol, transmiten, fax, paises, del, articulos, una, sobre, zzz_america_latina, economia, notas, tiene, mundo, categorias
  #9 | sales, indicator, economic, claim, jobless, scheduled, dates, listed, major, weekly, consumer, order, leading, home, prices, construction, retail, price, spending, producer
 
+hgjhgjhg.
+
 * Variational
 
 Topic | Words
