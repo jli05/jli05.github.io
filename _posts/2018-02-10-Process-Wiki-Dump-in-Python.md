@@ -1,5 +1,5 @@
 ---
-title: Process Wiki Dump 
+title: Process Wiki Dump in Python 
 layout: post
 ---
 
