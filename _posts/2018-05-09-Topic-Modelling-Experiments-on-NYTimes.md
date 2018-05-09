@@ -44,22 +44,14 @@ Topic | Words
 --- | ---
  #0 | company, million, percent, companies, stock, market, billion, business, shares, analyst, quarter, sales, deal, firm, chief, share, customer, investor, executive, cost
  #1 | team, game, season, play, player, games, point, coach, run, win, hit, played, won, left, yard, shot, ball, goal, guy, playing
- #2 | zzz_al_gore, zzz_bush, campaign, zzz_george_bush, president, percent, 
-election, republican, tax, political, vote, voter, democratic, zzz_white_house, presidential, zzz_republican, zzz_clinton, school, bill, zzz_senate
- #3 | percent, stock, market, million, quarter, company, billion, companies,
-     point, economy, fund, analyst, tax, rate, sales, cut, growth, investor, earning, zzz_al_gore
- #4 | com, web, www, information, question, newspaper, site, company, busine
-    ss, zzz_eastern, daily, sport, commentary, mail, separate, online, spot, need, computer, copy
+ #2 | zzz_al_gore, zzz_bush, campaign, zzz_george_bush, president, percent, election, republican, tax, political, vote, voter, democratic, zzz_white_house, presidential, zzz_republican, zzz_clinton, school, bill, zzz_senate
+ #3 | percent, stock, market, million, quarter, company, billion, companies, point, economy, fund, analyst, tax, rate, sales, cut, growth, investor, earning, zzz_al_gore
+ #4 | com, web, www, information, question, newspaper, site, company, business, zzz_eastern, daily, sport, commentary, mail, separate, online, spot, need, computer, copy
  #5 | zzz_held, guard, premature, publication, released, advisory, send, advise, zzz_boston_globe, zzz_istanbul, zzz_johannesburg, nyt, held, advance, zzz_jakarta, zzz_lexington, vacation, error, zzz_mesa, zzz_seoul
  #6 | file, zzz_boston_globe, tonight, spot, zzz_los_angeles_daily_new, slugged, zzz_new_york, zzz_xxx, earlier, article, zzz_x_x_x, today, incorrectly, zzz_holland, zzz_washington, sport, advise, com, error, misstated
- #7 | question, newspaper, copy, fall, zzz_diane, com, percent, kill, daily, zzz_eastern, information, sport, mandatory, commentary, palestinian, zzz_u_s, a
-    ttack, zzz_israel, marked, separate
- #8 | test, zzz_houston_chronicle, school, zzz_seattle_post_intelligencer, s
-    tudent, ignore, program, system, drug, teacher, point, testing, official, patien
-    t, zzz_kansas_city, cancer, anthrax, doctor, result, wire
- #9 | file, zzz_new_york, sport, zzz_los_angeles, school, read, internet, no
-    tebook, email, zzz_chuck, output, zzz_calif, wrote, book, student, copy, zzz_ana
-    heim_angel, zzz_los_angeles_dodger, fall, zzz_diane
+ #7 | question, newspaper, copy, fall, zzz_diane, com, percent, kill, daily, zzz_eastern, information, sport, mandatory, commentary, palestinian, zzz_u_s, attack, zzz_israel, marked, separate
+ #8 | test, zzz_houston_chronicle, school, zzz_seattle_post_intelligencer, student, ignore, program, system, drug, teacher, point, testing, official, patient, zzz_kansas_city, cancer, anthrax, doctor, result, wire
+ #9 | file, zzz_new_york, sport, zzz_los_angeles, school, read, internet, notebook, email, zzz_chuck, output, zzz_calif, wrote, book, student, copy, zzz_anaheim_angel, zzz_los_angeles_dodger, fall, zzz_diane
 
 * Variational
 
@@ -77,73 +69,37 @@ Topic | Words
  #9 | drug, official, patient, doctor, found, case, police, death, problem, attack, medical, disease, officer, health, test, cell, study, hospital, trial, zzz_fbi
 
 ## Economy-related
-Collection of documents with words fitting regex "^econ"
+Collection of documents with words fitting regex `"^econ"`
 
 * Spectral LDA
 
 Topic | Words
 --- | ---
- #0 | government, zzz_united_states, zzz_china, official, zzz_u_s, country, 
-zzz_bush, leader, countries, military, political, administration, foreign, natio
-n, zzz_american, trade, zzz_russia, war, economic, president
- #1 | percent, job, school, worker, economy, business, com, student, rate, c
-ompanies, number, high, program, economist, women, growth, information, unemploy
-ment, employees, rates
- #2 | company, percent, million, companies, quarter, billion, analyst, stock
-, market, sales, share, business, earning, cent, industry, cost, profit, revenue
-, executive, chief
- #3 | percent, stock, market, economy, investor, point, companies, rates, zz
-z_fed, rate, index, prices, quarter, growth, earning, analyst, interest, zzz_nas
-daq, fund, fell
- #4 | zzz_bush, president, administration, tax, zzz_white_house, cut, zzz_un
-ited_states, zzz_u_s, zzz_congress, official, leader, zzz_washington, attack, zz
-z_clinton, plan, military, nation, zzz_al_gore, campaign, terrorist
- #5 | percent, quarter, sales, rate, economy, stock, growth, point, market, 
-million, fell, analyst, rose, index, earning, rates, increase, job, average, num
-ber
- #6 | zzz_al_gore, zzz_george_bush, campaign, president, election, voter, zz
-z_clinton, democratic, republican, political, presidential, zzz_bill_clinton, vo
-te, poll, zzz_republican, democrat, zzz_party, vice, candidate, candidates
+ #0 | government, zzz_united_states, zzz_china, official, zzz_u_s, country, zzz_bush, leader, countries, military, political, administration, foreign, natio n, zzz_american, trade, zzz_russia, war, economic, president
+ #1 | percent, job, school, worker, economy, business, com, student, rate, companies, number, high, program, economist, women, growth, information, unemployment, employees, rates
+ #2 | company, percent, million, companies, quarter, billion, analyst, stock, market, sales, share, business, earning, cent, industry, cost, profit, revenue, executive, chief
+ #3 | percent, stock, market, economy, investor, point, companies, rates, zzz_fed, rate, index, prices, quarter, growth, earning, analyst, interest, zzz_nasdaq, fund, fell
+ #4 | zzz_bush, president, administration, tax, zzz_white_house, cut, zzz_united_states, zzz_u_s, zzz_congress, official, leader, zzz_washington, attack, zzz_clinton, plan, military, nation, zzz_al_gore, campaign, terrorist
+ #5 | percent, quarter, sales, rate, economy, stock, growth, point, market, million, fell, analyst, rose, index, earning, rates, increase, job, average, number
+ #6 | zzz_al_gore, zzz_george_bush, campaign, president, election, voter, zzz_clinton, democratic, republican, political, presidential, zzz_bill_clinton, vote, poll, zzz_republican, democrat, zzz_party, vice, candidate, candidates
  #7 | tax, cut, zzz_bush, billion, plan, spending, taxes, economy, bill, zzz_congress, income, money, zzz_social_security, surplus, zzz_white_house, federal, trillion, proposal, zzz_senate, zzz_democrat
  #8 | las, como, los, zzz_latin_trade, telefono, articulo, espanol, transmiten, fax, paises, del, articulos, una, sobre, zzz_america_latina, economia, notas, tiene, mundo, categorias
  #9 | sales, indicator, economic, claim, jobless, scheduled, dates, listed, major, weekly, consumer, order, leading, home, prices, construction, retail, price, spending, producer
-
-hgjhgjhg.
 
 * Variational
 
 Topic | Words
 --- | ---
-#0 | zzz_enron, bill, prices, oil, million, percent, market, company, progr
-am, price, farmer, farm, industry, federal, law, companies, barrel, zzz_congress
-, production, states
-#1 | las, con, los, como, una, zzz_latin_trade, fax, por, mas, telefono, di
-ce, articulo, million, espanol, paises, sobre, transmiten, economia, articulos, 
-financial
-#2 | percent, tax, economy, stock, market, cut, economic, billion, rate, sp
-ending, rates, growth, quarter, economist, companies, point, interest, fund, mon
-ey, investor
-#3 | palestinian, zzz_israel, drug, percent, official, government, group, m
-illion, plan, patient, peace, doctor, israeli, care, zzz_yasser_arafat, black, h
-ealth, right, zzz_clinton, zzz_israeli
-#4 | car, company, zzz_microsoft, system, industry, percent, market, power,
- airline, cost, passenger, flight, companies, million, economy, business, seat, 
-airlines, sales, price
-#5 | com, school, book, home, show, look, american, family, women, student,
- question, children, zzz_washington, beach, palm, daily, zzz_new_york, high, pla
-ce, room
-#6 | government, zzz_united_states, country, zzz_u_s, official, zzz_china, 
-economic, countries, zzz_bush, zzz_american, military, nation, leader, war, fore
-ign, political, attack, president, zzz_russia, power
-#7 | company, companies, million, percent, business, market, industry, job,
- firm, zzz_internet, money, customer, high, sales, technology, computer, executi
-ve, web, deal, team
-#8 | energy, plant, water, gas, million, power, fuel, official, oil, plan, 
-percent, industry, worker, problem, zzz_bush, environmental, project, cost, admi
-nistration, companies
-#9 | zzz_george_bush, zzz_al_gore, president, campaign, election, political
-, zzz_bush, democratic, republican, vote, voter, zzz_white_house, leader, zzz_cl
-inton, presidential, government, public, school, zzz_republican, right
+ #0 | zzz_enron, bill, prices, oil, million, percent, market, company, program, price, farmer, farm, industry, federal, law, companies, barrel, zzz_congress, production, states
+ #1 | las, con, los, como, una, zzz_latin_trade, fax, por, mas, telefono, dice, articulo, million, espanol, paises, sobre, transmiten, economia, articulos, financial
+ #2 | percent, tax, economy, stock, market, cut, economic, billion, rate, spending, rates, growth, quarter, economist, companies, point, interest, fund, money, investor
+ #3 | palestinian, zzz_israel, drug, percent, official, government, group, million, plan, patient, peace, doctor, israeli, care, zzz_yasser_arafat, black, health, right, zzz_clinton, zzz_israeli
+ #4 | car, company, zzz_microsoft, system, industry, percent, market, power, airline, cost, passenger, flight, companies, million, economy, business, seat, airlines, sales, price
+ #5 | com, school, book, home, show, look, american, family, women, student, question, children, zzz_washington, beach, palm, daily, zzz_new_york, high, place, room
+ #6 | government, zzz_united_states, country, zzz_u_s, official, zzz_china, economic, countries, zzz_bush, zzz_american, military, nation, leader, war, foreign, political, attack, president, zzz_russia, power
+ #7 | company, companies, million, percent, business, market, industry, job, firm, zzz_internet, money, customer, high, sales, technology, computer, executive, web, deal, team
+ #8 | energy, plant, water, gas, million, power, fuel, official, oil, plan, percent, industry, worker, problem, zzz_bush, environmental, project, cost, administration, companies
+ #9 | zzz_george_bush, zzz_al_gore, president, campaign, election, political, zzz_bush, democratic, republican, vote, voter, zzz_white_house, leader, zzz_clinton, presidential, government, public, school, zzz_republican, right
 
 
 
