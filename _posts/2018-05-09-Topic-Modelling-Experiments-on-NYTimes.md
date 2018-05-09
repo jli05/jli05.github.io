@@ -16,7 +16,8 @@ The data is from the [UCI Bag of Words NYTimes dataset](https://archive.ics.uci.
 Vocabulary Size    |  200000
 Number of Articles |  299650
 
-Quantiles for levels (.05, .25, .5, .75, .95)
+Quantiles for levels (.05, .25, .5, .75, .95):
+
 Number of Distinct Tokens per Article  |  (1.0, 181.0, 237.0, 1117.0, 1778.0)
 Document Length (Total Number of Tokens per Article) | (1.0, 217.0, 308.0, 1554.0, 3586.0)
 
@@ -24,8 +25,8 @@ Document Length (Total Number of Tokens per Article) | (1.0, 217.0, 308.0, 1554.
 We use non-informative priors.
 
 Number of Topics (k)  | 10
-All $$alpha_i$$ for prior Topic Distribution      | 1.0
-All $$beta_ij$$ for prior Topic Word Distribution | 1.0
+All $$\alpha_i$$ for prior Topic Distribution      | 1.0
+All $$\beta_{ij}$$ for prior Topic Word Distribution | 1.0
 
 For the Online Variational algorithm, the minibatch size is as large as possible to fully utilise 8-cores on an AWS Instance. It runs 10 full iterations over the corpus.
 
