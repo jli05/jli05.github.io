@@ -83,30 +83,30 @@ Collection of documents with words fitting regex "^econ"
 
 Topic | Words
 --- | ---
-#0 | government, zzz_united_states, zzz_china, official, zzz_u_s, country, 
+ #0 | government, zzz_united_states, zzz_china, official, zzz_u_s, country, 
 zzz_bush, leader, countries, military, political, administration, foreign, natio
 n, zzz_american, trade, zzz_russia, war, economic, president
-#1 | percent, job, school, worker, economy, business, com, student, rate, c
+ #1 | percent, job, school, worker, economy, business, com, student, rate, c
 ompanies, number, high, program, economist, women, growth, information, unemploy
 ment, employees, rates
-#2 | company, percent, million, companies, quarter, billion, analyst, stock
+ #2 | company, percent, million, companies, quarter, billion, analyst, stock
 , market, sales, share, business, earning, cent, industry, cost, profit, revenue
 , executive, chief
-#3 | percent, stock, market, economy, investor, point, companies, rates, zz
+ #3 | percent, stock, market, economy, investor, point, companies, rates, zz
 z_fed, rate, index, prices, quarter, growth, earning, analyst, interest, zzz_nas
 daq, fund, fell
-#4 | zzz_bush, president, administration, tax, zzz_white_house, cut, zzz_un
+ #4 | zzz_bush, president, administration, tax, zzz_white_house, cut, zzz_un
 ited_states, zzz_u_s, zzz_congress, official, leader, zzz_washington, attack, zz
 z_clinton, plan, military, nation, zzz_al_gore, campaign, terrorist
-#5 | percent, quarter, sales, rate, economy, stock, growth, point, market, 
+ #5 | percent, quarter, sales, rate, economy, stock, growth, point, market, 
 million, fell, analyst, rose, index, earning, rates, increase, job, average, num
 ber
-#6 | zzz_al_gore, zzz_george_bush, campaign, president, election, voter, zz
+ #6 | zzz_al_gore, zzz_george_bush, campaign, president, election, voter, zz
 z_clinton, democratic, republican, political, presidential, zzz_bill_clinton, vo
 te, poll, zzz_republican, democrat, zzz_party, vice, candidate, candidates
-#7 | tax, cut, zzz_bush, billion, plan, spending, taxes, economy, bill, zzz_congress, income, money, zzz_social_security, surplus, zzz_white_house, federal, trillion, proposal, zzz_senate, zzz_democrat
-#8 | las, como, los, zzz_latin_trade, telefono, articulo, espanol, transmiten, fax, paises, del, articulos, una, sobre, zzz_america_latina, economia, notas, tiene, mundo, categorias
-#9 | sales, indicator, economic, claim, jobless, scheduled, dates, listed, major, weekly, consumer, order, leading, home, prices, construction, retail, price, spending, producer
+ #7 | tax, cut, zzz_bush, billion, plan, spending, taxes, economy, bill, zzz_congress, income, money, zzz_social_security, surplus, zzz_white_house, federal, trillion, proposal, zzz_senate, zzz_democrat
+ #8 | las, como, los, zzz_latin_trade, telefono, articulo, espanol, transmiten, fax, paises, del, articulos, una, sobre, zzz_america_latina, economia, notas, tiene, mundo, categorias
+ #9 | sales, indicator, economic, claim, jobless, scheduled, dates, listed, major, weekly, consumer, order, leading, home, prices, construction, retail, price, spending, producer
 
 * Variational
 
