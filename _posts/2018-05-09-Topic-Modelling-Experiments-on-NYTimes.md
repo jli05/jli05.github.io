@@ -18,11 +18,10 @@ Statistics | Value
 Vocabulary Size    |  200000
 Number of Articles |  299650
 
-
 Quantiles | Levels (.05, .25, .5, .75, .95)
 --- | ---
 Number of Distinct Tokens per Article  |  (1.0, 181.0, 237.0, 1117.0, 1778.0)
-Document Length (Total Number of Tokens per Article) | (1.0, 217.0, 308.0, 1554.0, 3586.0)
+Document Length | (1.0, 217.0, 308.0, 1554.0, 3586.0)
 
 # Model Parameters
 We use non-informative priors.
