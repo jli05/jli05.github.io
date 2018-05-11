@@ -5,17 +5,17 @@ layout: post
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
 
-# Introduction
+## Introduction
 On a full scale corpus, simple formulation for Topic Modelling as Non-negative Matrix Decomposition no longer renders satisfactory results; we have to use more flexible formulation as the Latent Dirichlet Allocation. We compare the results from two main algorithms for LDA:
 * Spectral LDA <https://github.com/Mega-DatA-Lab/SpectralLDA-Spark>
 * Online Variational "Online Learning for Latent Dirichlet Allocation", NIPS 2010
 
-# Dataset
+## Dataset
 The data is from the [UCI Bag of Words NYTimes dataset](https://archive.ics.uci.edu/ml/datasets/bag+of+words).
 
 Statistics | Value
 --- | ---
-Vocabulary Size    |  200000
+Vocabulary Size    |  20000
 Number of Articles |  299650
 
 Quantiles | Levels (.05, .25, .5, .75, .95)
@@ -23,7 +23,7 @@ Quantiles | Levels (.05, .25, .5, .75, .95)
 Number of Distinct Tokens per Article  |  (1.0, 181.0, 237.0, 1117.0, 1778.0)
 Document Length | (1.0, 217.0, 308.0, 1554.0, 3586.0)
 
-# Model Parameters
+## Model Parameters
 We use non-informative priors.
 
 Parameter | Value
@@ -34,10 +34,10 @@ All $$\beta_{ij}$$ for prior Topic Word Distribution | 1.0
 
 For the Online Variational algorithm, the minibatch size is as large as possible to fully utilise 8-cores on an AWS Instance. It runs 10 full iterations over the corpus.
 
-# Results
+## Results
 We run on the entire corpus, then on economy-related, China-related, music-related sub-collection of documents. We can see that Spectral LDA gennerally discovers pertinent and consistent topics, esp. on collections with known theme.
 
-## Entire Corpus
+### Entire Corpus
 * Spectral LDA
 
 Topic | Words
@@ -68,7 +68,7 @@ Topic | Words
  #8 | music, show, book, art, human, artist, program, research, scientist, director, million, song, part, history, network, group, zzz_new_york, magazine, century, project
  #9 | drug, official, patient, doctor, found, case, police, death, problem, attack, medical, disease, officer, health, test, cell, study, hospital, trial, zzz_fbi
 
-## Economy-related
+### Economy-related
 Collection of documents with words fitting regex `"^econ"`
 
 * Spectral LDA
