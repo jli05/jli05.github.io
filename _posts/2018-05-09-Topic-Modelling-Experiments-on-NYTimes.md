@@ -101,5 +101,39 @@ Topic | Words
  #8 | energy, plant, water, gas, million, power, fuel, official, oil, plan, percent, industry, worker, problem, zzz_bush, environmental, project, cost, administration, companies
  #9 | zzz_george_bush, zzz_al_gore, president, campaign, election, political, zzz_bush, democratic, republican, vote, voter, zzz_white_house, leader, zzz_clinton, presidential, government, public, school, zzz_republican, right
 
+### China-related
+Collection of documents containing words fitting regex "(china|chinese)"
+
+* Spectral LDA
+
+Topic | Words
+--- | ---
+ #0 | zzz_china, chinese, zzz_beijing, trade, zzz_united_states, zzz_taiwan, government, market, zzz_american, zzz_u_s, relation, zzz_hong_kong, right, official, companies, foreign, country, missile, economic, leader
+ #1 | chinese, government, zzz_china, official, zzz_hong_kong, zzz_beijing, zzz_lee, zzz_falun_gong, case, group, law, police, zzz_party, security, leader, political, nuclear, secret, zzz_fbi, information
+ #2 | company, percent, zzz_china, market, companies, million, zzz_hong_kong , business, government, stock, billion, zzz_internet, analyst, investment, foreign, industry, shares, web, chinese, investor
+ #3 | zzz_china, trade, right, zzz_clinton, zzz_bush, vote, president, zzz_congress, relation, zzz_beijing, bill, zzz_white_house, leader, zzz_american, zzz_united_states, human, administration, member, political, permanent
+ #4 | zzz_china, zzz_bush, missile, zzz_united_states, defense, nuclear, zzz_russia, system, administration, weapon, zzz_u_s, military, official, zzz_american, zzz_taiwan, missiles, arm, security, zzz_washington, zzz_north_korea
+ #5 | japanese, zzz_japan, korean, zzz_north_korea, percent, zzz_sou[7/1986], zzz_north, country, zzz_china, war, group, government, asian, zzz_north_korean, visit, chinese, american, countries, zzz_united_states, school
+ #6 | team, games, zzz_olympic, player, game, medal, women, won, play, zzz_nba, gold, sport, coach, american, win, rocket, athletes, season, soccer, draft
+ #7 | chinese, plane, zzz_u_s, zzz_china, crew, official, zzz_bush, zzz_united_states, pilot, member, military, zzz_beijing, aircraft, zzz_american, collision, spy, jet, american, incident, meeting
+ #8 | cup, tablespoon, add, oil, sauce, minutes, teaspoon, pepper, water, sugar, food, chicken, garlic, fresh, serving, onion, chopped, large, cooking, fat
+ #9 | zzz_taiwan, zzz_china, zzz_beijing, zzz_party, mainland, military, nationalist, independence, island, chinese, zzz_lee, president, election, taiwanese, zzz_united_states, official, government, policy, leader, zzz_taipei
+
+* Variational
+
+Topic | Words
+--- | ---
+ #0 | zzz_china, chinese, official, government, million, zzz_united_states, zzz_bush, right, company, market, zzz_u_s, leader, book, part, home, zzz_beijing, open, family, american, show
+ #1 | cup, minutes, add, oil, tablespoon, food, sauce, water, teaspoon, restaurant, pepper, fresh, large, sugar, hour, cooking, taste, serving, fat, egg
+ #2 | zzz_china, chinese, official, zzz_bush, zzz_united_states, right, zzz_american, president, political, country, government, military, zzz_beijing, part, war, need, zzz_taiwan, home, administration, leader
+ #3 | zzz_china, chinese, zzz_united_states, government, official, group, right, zzz_beijing, zzz_taiwan, military, american, percent, zzz_u_s, put, part, show, family, high, president, member
+ #4 | zzz_china, chinese, zzz_united_states, official, government, zzz_u_s, group, zzz_clinton, home, zzz_american, missile, zzz_russia, computer, called, system, zzz_bush, american, zzz_washington, million, high
+ #5 | zzz_china, chinese, zzz_taiwan, zzz_united_states, government, american, official, com, zzz_u_s, zzz_kmart, zzz_bush, zzz_beijing, right, company, zzz_washington, show, zzz_boeing, market, school, million
+ #6 | zzz_china, zzz_bush, chinese, percent, palestinian, market, million, zzz_japan, american, country, companies, zzz_u_s, zzz_israeli, official, zzz_united_states, japanese, company, part, government, right
+ #7 | hair, love, makeup, actress, wear, look, dress, chinese, beauty, gown, show, artist, women, stylist, zzz_oscar, black, simple, red, zzz_china, right
+ #8 | zzz_china, chinese, government, official, zzz_united_states, zzz_u_s, country, american, zzz_american, million, zzz_beijing, right, zzz_bush, zzz_taiwan, group, president, home, percent, show, part
+ #9 | zzz_china, chinese, zzz_enron, trade, zzz_party, zzz_clinton, zzz_united_states, power, right, zzz_american, government, political, zzz_u_s, president, zzz_third_world, zzz_america, democratic, million, leader, zzz_jiang
+--- | ---
+
 
 
