@@ -133,7 +133,4 @@ Topic | Words
  #7 | hair, love, makeup, actress, wear, look, dress, chinese, beauty, gown, show, artist, women, stylist, zzz_oscar, black, simple, red, zzz_china, right
  #8 | zzz_china, chinese, government, official, zzz_united_states, zzz_u_s, country, american, zzz_american, million, zzz_beijing, right, zzz_bush, zzz_taiwan, group, president, home, percent, show, part
  #9 | zzz_china, chinese, zzz_enron, trade, zzz_party, zzz_clinton, zzz_united_states, power, right, zzz_american, government, political, zzz_u_s, president, zzz_third_world, zzz_america, democratic, million, leader, zzz_jiang
---- | ---
-
-
 
