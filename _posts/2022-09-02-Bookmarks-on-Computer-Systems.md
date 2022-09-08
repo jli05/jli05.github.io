@@ -36,3 +36,6 @@ Plan 9
 
 SystemX Alliance
 [https://systemx.stanford.edu](https://systemx.stanford.edu)
+
+Man-Computer Symbiosis
+[https://groups.csail.mit.edu/medg/people/psz/Licklider.html](https://groups.csail.mit.edu/medg/people/psz/Licklider.html)
