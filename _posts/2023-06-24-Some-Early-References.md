@@ -36,3 +36,6 @@ Wiener, N (1948) Cybernetics. New York: Wiley.
 Wooldridge, J (1989) Some results on specification testing against nonparametric alternatives. MIT department of Economics working paper.
 
 
+Ronald J. Williams
+https://www.ccs.neu.edu/home/rjw/
+
