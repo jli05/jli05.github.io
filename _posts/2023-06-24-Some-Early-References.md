@@ -42,3 +42,15 @@ https://www.ccs.neu.edu/home/rjw/
 Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises, James L. McClelland and David E. Rumelhart, 1988
 
 Semantic Cognition: A Parallel Distributed Processing Approach, Timothy T. Rogers,  James L. McClelland, 2004
+
+
+Convergence of Real-time tracking
+
+Gerencser Laszlo 1986 Paramter Tracking of Time-Varying Continuous-Time Linear Stochastic Systems, in Modelling, Identification and Robust Control, C.I Byrnes and A Lindquist, ed. New York: Elsevier, 581-594
+
+
+Convergence of Learning for RNN
+
+Kushner, Harold J and Dean S Clark (1978): Stochastic Approximation Methods for Constrained and Unconstrained Systems, New York: Springer-Verlag.
+
+Kuan, Chung-Ming, Kurt Hornik and Halbert White (1990): Some Convergence Results for Learning in Recurrent Neural Networks, UCSD Department of Economics Discussion Paper.
