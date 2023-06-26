@@ -39,3 +39,6 @@ Wooldridge, J (1989) Some results on specification testing against nonparametric
 Ronald J. Williams
 https://www.ccs.neu.edu/home/rjw/
 
+Explorations in Parallel Distributed Processing: A Handbook of Models, Programs, and Exercises, James L. McClelland and David E. Rumelhart, 1988
+
+Semantic Cognition: A Parallel Distributed Processing Approach, Timothy T. Rogers,  James L. McClelland, 2004
