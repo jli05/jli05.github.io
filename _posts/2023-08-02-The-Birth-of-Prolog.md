@@ -17,7 +17,16 @@ Alain Colmerauer, Philippe Roussel
 ### 7.5.4 Implementation of the Interpreter
 > The system consisted of the actual interpreter (i.e. the inference machine equipped with a library of built-in predicates), a loader to read clauses in a restricted syntax, and a supervisor written in Prolog. Among other things, this supervisor contained a query evaluator, an analyzer accepting extended syntax, and the high-level input-output predicates.
 
+### Conclusion
+> The article published by Alan Robinson in January 1965, "A machine-oriented logic based on the resolution principle," contained the seeds of the Prolog language.
+>
+> Our contribution was to transform that theorem prover into a programming language. To that end, we did not hesitate to introduce purely computational mechanisms and restrictions that were heresies for the existng theoretical model. These modifications, so often critized, assured the viability, and thus the success, of Prolog. Robert Kowalski's contribution was to single out the concept of the "Horn clause", which legitimised our principal heresy: a strategy of linear demonstration with backtracking and with unification only at the heads of clauses.
+>
+> ... We have had the pleasure of recalling it for this paper over fresh almonds accompanied by a dry martini.
 
+### References
 Bergman, Marc and Henry Kanoui, Application of mechanical theorem proving to symbolic calculus, Third International Colloquium on Advanced Computing Methods in Theoretical Physics, Marseilles, France, June 1973.
 
 Joubert, Michel, Un système de résolution de problèmes à tendance naturelle, 3e cycle thesis, Groupe Intelligence Artificielle, Faculte des Sciences de Luminy, Université Aix-Marseille II, France, Feb 1974.
+
+Separately, [https://www.openbookproject.net/py4fun/prolog/prolog1.html](https://www.openbookproject.net/py4fun/prolog/prolog1.html) and [https://openbookproject.net/py4fun/prolog/prolog2.html](https://openbookproject.net/py4fun/prolog/prolog2.html) provided a simplest implementation of Prolog and its `unify()` routine. A repo is at [https://github.com/brief-ds/prolog](https://github.com/brief-ds/prolog).
