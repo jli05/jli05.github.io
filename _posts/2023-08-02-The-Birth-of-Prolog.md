@@ -29,4 +29,12 @@ Bergman, Marc and Henry Kanoui, Application of mechanical theorem proving to sym
 
 Joubert, Michel, Un système de résolution de problèmes à tendance naturelle, 3e cycle thesis, Groupe Intelligence Artificielle, Faculte des Sciences de Luminy, Université Aix-Marseille II, France, Feb 1974.
 
-Separately, [https://www.openbookproject.net/py4fun/prolog/prolog1.html](https://www.openbookproject.net/py4fun/prolog/prolog1.html) and [https://openbookproject.net/py4fun/prolog/prolog2.html](https://openbookproject.net/py4fun/prolog/prolog2.html) provided a simplest implementation of Prolog and its `unify()` routine. A repo is at [https://github.com/brief-ds/prolog](https://github.com/brief-ds/prolog).
+### Transcript of Presentation
+#### Slide 15
+> This graph representation leads to an efficient bottom-up parser which keeps most common parts together.
+>
+> The important thing was that, within a rule, you were allowed to speak about complex symbols and complex symbols were just trees, ...
+
+Separately, [https://www.openbookproject.net/py4fun/prolog/prolog1.html](https://www.openbookproject.net/py4fun/prolog/prolog1.html) and [https://openbookproject.net/py4fun/prolog/prolog2.html](https://openbookproject.net/py4fun/prolog/prolog2.html) provide a simplest implementation of Prolog and its `unify()` routine. A git repo is at [https://github.com/brief-ds/prolog](https://github.com/brief-ds/prolog).
+
+A book on the unification is Ait-Kacl, H. 1991. The WAM: A (Real) Tutorial. MIT Press, Cambridge, MA. for Warren Abstract Machine. [https://mitpress.mit.edu/9780262510585/warrens-abstract-machine/](https://mitpress.mit.edu/9780262510585/warrens-abstract-machine/)
