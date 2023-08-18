@@ -105,7 +105,7 @@ According to a [list of ranking of fastest computers](https://en.wikipedia.org/w
 Hence it may be close to impossible to find out if a LLM was correctly specified as its modelling objective, if the LLM was densely connected inside, i.e. one neuron connected to most other neurons.
 
 ## If there were a High Sparsity in the Neural Network
-If relative to the total number of neurons, one neuron is only connected to few fellow neurons, the matrix
+If relative to the total number of neurons, one neuron is only connected to few fellow neurons, so sparse that for a given input text, only a tiny fraction of the neurons would be involved in crunching out the final likelihood value, the matrix
 <math display="block">
 <mrow>
 <mfrac>
@@ -170,7 +170,7 @@ If relative to the total number of neurons, one neuron is only connected to few 
 </mrow>
 </math>
 
-would be highly sparse, or with many elements being zero. The number of non-zero elements would be in the order of <math><mi>r</mi></math>, mostly arranged along and in the vicinity of the diagonal line of the matrix.
+would consequentially be highly sparse, or with many elements being zero. The number of non-zero elements would be in the order of <math><mi>r</mi></math>, mostly arranged along and in the vicinity of the diagonal line of the matrix.
 
 As regards the covariance matrix of these non-zero elements, the number of non-zero elements could still be in the order of <math><mi>r</mi></math>, assuming <math><mi>r</mi></math> is a very big number, and the neurons comparatively are very sparsely connected.
 
@@ -185,6 +185,9 @@ first, for an adult human brain, relatively to the total number of neurons, aver
 second, the total number of synapses, our <math><mi>r</mi></math>, decreases as the human grows from child to adult. Take the 3-year old child, <math><mi>r</mi></math> is circa <math><msup><mn>10</mn><mn>15</mn></msup></math>.
 
 From what we said above, in this case of high sparsity, every step of computation would be in the order of <math><mi>r</mi></math>, in order to carry out the misspecification test. When <math><mi>r</mi></math> is in the order of <math><msup><mn>10</mn><mn>15</mn></msup></math>, on a single typical laptop microprocessor, it may take at most weeks to finish the computation, provided that it can sustain working at full power and heat for that long.
+
+## Parallel Processing for Multiple Objectives in a Large Model
+In the section above, we supposed that for a given input text, only a tiny fraction of the neurons would be involved in the computation. Broadly, if for any given specific task, only a tiny fraction of neurons would be involved in computing the result, it is possible to imagine a practical Large Model always computing for multiple tasks or objectives at the same time, dedicating largely different fractions of neurons to different tasks or objectives. At the outcome, it may weigh the results obtained for the various objectives and take an action. Is that why we as human are always puzzled about life's conundrums?
 
 ## REFERENCES
 <a name="ref-white92">White, Halbert et al, 1992, Artificial Neural Networks: Approximation and Learning Theory.</a>
