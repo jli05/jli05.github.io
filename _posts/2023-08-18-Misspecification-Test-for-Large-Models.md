@@ -170,7 +170,7 @@ If relative to the total number of neurons, one neuron is only connected to few 
 </mrow>
 </math>
 
-would consequentially be highly sparse, or with many elements being zero. The number of non-zero elements would be in the order of <math><mi>r</mi></math>, mostly arranged along and in the vicinity of the diagonal line of the matrix.
+would consequentially be highly sparse, or with many elements being zero. The number of non-zero elements would be in the order of <math><mi>r</mi></math>, arranged sporadically on and symmetrically off the diagonal line of the matrix.
 
 As regards the covariance matrix of these non-zero elements, the number of non-zero elements could still be in the order of <math><mi>r</mi></math>, assuming <math><mi>r</mi></math> is a very big number, and the neurons comparatively are very sparsely connected.
 
