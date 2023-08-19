@@ -1,6 +1,7 @@
 ---
 title: Misspecification Test for Large Models
 layout: post
+excerpt: misspecification test on the log-likelihood function for large models, or why there may be need for a high degree of sparsity in large neural network models
 ---
 
 
