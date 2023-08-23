@@ -21,3 +21,5 @@ Small Sample Asymptotics. Christopher Field, Elvezio Ronchetti. 1990
 Applied Asymptotics: Case Studies in Small-Sample Statistics. A. R. Brazzale, A.C. Davison, N. Reid
 
 Small Sample Asymptotics. Michael A. Fligner. Journal of Educational Statistics. Spring 1988, Volume 13, No. 1, pp. 53-61. [https://www.jstor.org/stable/1164951](https://www.jstor.org/stable/1164951)
+
+Information Theory and Statistics. Solomon Kullback.    1959, 1968. [https://archive.org/details/informationtheor0000kull/](https://archive.org/details/informationtheor0000kull/)
