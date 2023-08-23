@@ -3,6 +3,8 @@ title: Some Early References on Learning in Artificial Neural Networks
 layout: post
 ---
 
+Below are references from the book of White, Halbert et al, 1992, Artificial Neural Networks: Approximation and Learning Theory.
+
 Abstract Inference Ulf Grenander. 1981 “Method of sieves” learn multilayer feedforward networks
 
 White, Halbert and J.M. Wooldridge (1989) Some results for sieve estimation with dependent observations.  In W. Barnett, J. Powell, and G. Tauchen (Des), Nonparametric and Semi-Parametric Methods in Econometrics and Statistics. New York: Cambridge University Press.
