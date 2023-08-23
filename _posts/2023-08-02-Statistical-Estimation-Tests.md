@@ -7,6 +7,8 @@ Fisher R.A (1925) Theory of statistical estimation. Proceedings of the Cambridge
 
 Fisher R.A (1924) The conditions under which <math><msup><mi>χ</mi><mn>2</mn></msup></math> measures the discrepancy between observation and hypothesis. J.R.S.S. vol. 87, 442-450.
 
+Fisher R.A (1922) On the Interpretation of <math><msup><mi>χ</mi><mn>2</mn></msup></math> from Contingency Tables, and the Calculation of <math><mi>P</mi></math>. Journal of the Royal Statistical Society, Volume 85, Issue 1, January 1922, Pages 87–94. [https://academic.oup.com/jrsssa/article-abstract/85/1/87/7014601](https://academic.oup.com/jrsssa/article-abstract/85/1/87/7014601)
+
 Akaike, H (1973) Information theory and an extension of the likelihood principle. In B.N Petrov and F. Csaki (eds), Proceedings of the Second International Symposium of Information Theory. Budapest: Akademiai Kiado.
 
 Testing Statistical Hypotheses. E.L. Lehmann, Joseph P. Romano
