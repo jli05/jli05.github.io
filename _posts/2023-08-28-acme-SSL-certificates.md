@@ -23,13 +23,24 @@ curl https://get.acme.sh | sh -s email=<email>
 /root/.acme.sh/acme.sh --issue --nginx /etc/nginx/nginx.conf -d <server_name>
 ```
 
-After issuance of the certificate, go to `/etc/nginx/nginx.conf`, uncomment the lines for the https protocol and set the section up, and set up [forward http to https requests](/2023/08/28/nginx-forward-http-to-https-requests.html).
-
-In the section for the https protocol, the two lines specifying SSL public certificate and private key in the `/etc/nginx/nginx.conf` file would look like
+After issuance of the certificate, press `Ctrl+D` to quit the `su` session and return as normal user. Now go to `/etc/nginx/nginx.conf`, uncomment the lines for the https protocol and set the section up.
 
 ```
-  ssl_certificate /root/.acme.sh/<server_name>_ecc/fullchain.cer
-  ssl_certificate_key /root/.acme.sh/<server_name>_ecc/<server_name>.key
+  server {
+    listen       443 ssl http2;
+    listen       [::]:443 ssl http2;
+    server_name  <server_name>;
+    root         /usr/share/nginx/html;
+
+    ssl_certificate /root/.acme.sh/<server_name>_ecc/fullchain.cer
+    ssl_certificate_key /root/.acme.sh/<server_name>_ecc/<server_name>.key
+    ssl_session_cache shared:SSL:1m;
+    ssl_session_timeout  10m;
+    ssl_ciphers PROFILE=SYSTEM;
+    ssl_prefer_server_ciphers on;
+
+    ...
+  }
 ```
 
 Once done, reload the nginx service,
@@ -37,5 +48,3 @@ Once done, reload the nginx service,
 ```sh
 sudo service nginx force-reload
 ```
-
-and press `Ctrl+D` to quit the `su` session and return as normal user.
