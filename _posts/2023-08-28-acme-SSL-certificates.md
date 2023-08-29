@@ -34,8 +34,8 @@ Now go to `/etc/nginx/nginx.conf`, uncomment the lines for the https protocol an
     server_name  <server_name>;
     root         /usr/share/nginx/html;
 
-    ssl_certificate /root/.acme.sh/<server_name>_ecc/fullchain.cer
-    ssl_certificate_key /root/.acme.sh/<server_name>_ecc/<server_name>.key
+    ssl_certificate /root/.acme.sh/<server_name>_ecc/fullchain.cer;
+    ssl_certificate_key /root/.acme.sh/<server_name>_ecc/<server_name>.key;
     ssl_session_cache shared:SSL:1m;
     ssl_session_timeout  10m;
     ssl_ciphers PROFILE=SYSTEM;
