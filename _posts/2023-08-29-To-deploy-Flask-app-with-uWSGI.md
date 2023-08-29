@@ -33,7 +33,7 @@ To start the web application and the uWSGI server in the background, in the shel
 uwsgi --ini uwsgi.ini &
 ```
 
-The front end web server `nginx` needs to delegate requests for the web application to `uWSGI`. We go to its configuration file `/etc/nginx/nginx.conf`, and modify the relevant `server` section,
+The front end web server `nginx` shall now be configured to delegate requests for the web application to `uWSGI`. Go to `/etc/nginx/nginx.conf`, and modify the relevant `server` section,
 
 to mount the web app on the root path '/', so that the URL looks `http://<host>`,
 
@@ -73,7 +73,7 @@ Eventually, reload or restart the web server in the shell,
 sudo service nginx force-reload
 ```
 
-When `uWSGI` is running, we could print text command to the fifo file `/home/ec2-user/www/uwsgi.fifo` in the shell for control, such as,
+When `uWSGI` is running, in the shell, we could print text command to the fifo file `/home/ec2-user/www/uwsgi.fifo` for control, such as,
 
 ```sh
 # to quit the web app and uwsgi process
