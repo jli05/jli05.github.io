@@ -14,10 +14,11 @@ Suppose the domain is `example.com`, associated with a static IP address, for wh
 5. On this new VM, retrieve the SSL certificate from the Certificate Authority (CA) for `example.com` with `certbot` or `acme.sh`. Re-configure the web server with the new SSL certificate and force reload it.
 6. Revoke the certificate for `stage1.example.com`. Go to the DNS setting, and delete the entry for subdomain `stage1`. Back in AWS, the Elastic IP address created at the beginning of these steps should be free of association now, release it. It is **important** to clean up and release these resources, uncleaned DNS configurations may become a security risk.
 
+## Notes
 Let's Encrypt, the Certificate Authority (CA) that issues free SSL certificates to websites
 [https://letsencrypt.org](https://letsencrypt.org)
 
-`certbot`, the recommended client by Let's Encrypt that handles all communication between the user website and the CA
+`certbot`, the recommended client by Let's Encrypt that handles communication between the user website and the CA
 [https://certbot.eff.org](https://certbot.eff.org)
 
 To retrieve a certificate with `certbot`, the http (port number usually 80) port must be open,
