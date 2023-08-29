@@ -23,7 +23,9 @@ curl https://get.acme.sh | sh -s email=<email>
 /root/.acme.sh/acme.sh --issue --nginx /etc/nginx/nginx.conf -d <server_name>
 ```
 
-After issuance of the certificate, press `Ctrl+D` to quit the `su` session and return as normal user. Now go to `/etc/nginx/nginx.conf`, uncomment the lines for the https protocol and set the section up.
+After issuance of the certificate, press `Ctrl+D` to quit the `su` session and return as normal user. **Back up** the certificate files as soon as you can.
+
+Now go to `/etc/nginx/nginx.conf`, uncomment the lines for the https protocol and set the section up.
 
 ```
   server {
