@@ -31,3 +31,7 @@ In reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/r
 | `sw t2, 0x7C(t1)`     | Store word           | `memory[t1 + 0xuC] = t2` |
 | `sh t3, 22(s3)`       | Store half-word      | `memory[s3 + 22]_{15:0} = t3_{15:0}` |
 | `sb t4, 5(s4)`        | Store byte           | `memory[s4 + 5]_{7:0} = t4_{7:0}` |
+| `beq s1, s2, L1`      | Branch if equal      | `if (s1 == s2), PC = L1` |
+| `bne t3, t4, Loop`    | Branch if not equal  | `if (s1 != s2), PC = Loop` |
+| `blt t4, t5, L3`      | Branch if less than  | `if (t4 < t5), PC = L3` |
+| `bge s8, s9, Done`    | Branch if greater than or equal | `if (s8 >= s9), PC = Done` |
