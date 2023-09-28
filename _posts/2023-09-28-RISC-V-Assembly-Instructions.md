@@ -27,5 +27,7 @@ In reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/r
 | `srai s3, s4, 31`     | Shift right arithmetic immediate | `s3 = s4 >>> 31` |
 | `lw s7, 0x2C(t1)`     | Load word            | `s7 = memory[t1 + 0x2C]` |
 | `lh s5, 0x5A(s3)`     | Load half-word       | `s5 = SignExt(memory[s3 + 0x5A]_{15:0})` |
-
-
+| `lb s1, -3(t4)`       | Load byte            | `s1 = SignExt(memory[t4 - 3]_{7:0})` |
+| `sw t2, 0x7C(t1)`     | Store word           | `memory[t1 + 0xuC] = t2` |
+| `sh t3, 22(s3)`       | Store half-word      | `memory[s3 + 22]_{15:0} = t3_{15:0}` |
+| `sb t4, 5(s4)`        | Store byte           | `memory[s4 + 5]_{7:0} = t4_{7:0}` |
