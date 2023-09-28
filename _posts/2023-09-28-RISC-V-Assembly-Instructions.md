@@ -5,6 +5,21 @@ layout: post
 
 In reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/riscv/riscv-isa-manual) "Unpriviledged ISA Manual",
 
+| Register Name   | Register Number   |            Use               |
+| --------------- | ----------------- | ---------------------------- |
+| `zero`          | `x0`              | Constant value 0             |
+| `ra`            | `x1`              | Return address               |
+| `sp`            | `x2`              | Stack pointer                |
+| `gp`            | `x3`              | Global pointer               |
+| `tp`            | `x4`              | Thread pointer               |
+| `t0-2`          | `x5-7`            | Temporary variables          |
+| `s0/fp`         | `x8`              | Saved register / Frame pointer |
+| `s1`            | `x9`              | Saved register               |
+| `a0-1`          | `x10-11`          | Function arguments / Return values |
+| `a2-7`          | `x12-17`          | Function arguments           |
+| `s2-11`         | `x18-27`          | Saved registers              |
+| `t3-6`          | `x28-31`          | Temporary variables          |
+
 |  RISC-V Assembly      |  Description         |    Operation        |
 | --------------------- | -------------------- | ------------------- |
 | `add s0, s1, s2`      | Add                  | `s0 = s1 + s2`      |
