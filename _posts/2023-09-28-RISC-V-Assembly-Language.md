@@ -1,9 +1,9 @@
 ---
-title: RISC-V Assembly Instructions
+title: RISC-V Assembly Language
 layout: post
 ---
 
-In reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/riscv/riscv-isa-manual) "Unpriviledged ISA Manual",
+Registers for 32-bit RISC-V:
 
 | Register Name   | Register Number   |            Use               |
 | --------------- | ----------------- | ---------------------------- |
@@ -19,6 +19,11 @@ In reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/r
 | `a2-7`          | `x12-17`          | Function arguments           |
 | `s2-11`         | `x18-27`          | Saved registers              |
 | `t3-6`          | `x28-31`          | Temporary variables          |
+
+
+
+
+Below are the unpriviledged assembly instructions for 32-bit RISC-V, in reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/riscv/riscv-isa-manual) "Unpriviledged ISA Manual".
 
 |  RISC-V Assembly      |  Description         |    Operation        |
 | --------------------- | -------------------- | ------------------- |
