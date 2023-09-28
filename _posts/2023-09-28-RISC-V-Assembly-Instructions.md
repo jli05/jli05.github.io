@@ -35,3 +35,12 @@ In reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/r
 | `bne t3, t4, Loop`    | Branch if not equal  | `if (s1 != s2), PC = Loop` |
 | `blt t4, t5, L3`      | Branch if less than  | `if (t4 < t5), PC = L3` |
 | `bge s8, s9, Done`    | Branch if greater than or equal | `if (s8 >= s9), PC = Done` |
+| `li s1, 0xABCDEF12`   | Load immediate       | `s1 = 0xABCDEF12`    |
+| `la s1, A`            | Load address         | `s1 = Memory address where variable A is stored` |
+| `nop`                 | No operation         | No operation         |
+| `mv s3, s7`           | Move                 | `s3 = s7`            |
+| `not t1, t2`          | Not (invert)         | `t1 = ~t2`           |
+| `neg s1, s3`          | Negate               | `s1 = -s3`           |
+| `j Label`             | Jump                 | `PC = Label`         |
+| `jal L7`              | Jump and link        | `PC = L7; ra = PC + 4` |
+| `jr s1`               | Jump register        | `PC = s1`            |
