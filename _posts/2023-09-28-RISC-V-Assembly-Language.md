@@ -20,8 +20,7 @@ Registers for 32-bit RISC-V:
 | `s2-11`         | `x18-27`          | Saved registers              |
 | `t3-6`          | `x28-31`          | Temporary variables          |
 
-
-
+The temporary variables and function arguments are not preserved across sub-function calls.
 
 Below are the unpriviledged assembly instructions for 32-bit RISC-V, in reference to [https://github.com/riscv/riscv-isa-manual](https://github.com/riscv/riscv-isa-manual) "Unpriviledged ISA Manual".
 
