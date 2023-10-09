@@ -63,3 +63,6 @@ Below are the unpriviledged assembly instructions for 32-bit RISC-V, in referenc
 | `j Label`             | Jump                 | `PC = Label`         |
 | `jal L7`              | Jump and link        | `PC = L7; ra = PC + 4` |
 | `jr s1`               | Jump register        | `PC = s1`            |
+
+RISC-V [Green Card](/assets/riscvcard.pdf)
+Source: [https://inst.eecs.berkeley.edu/~cs61c/fa17/img/riscvcard.pdf](https://inst.eecs.berkeley.edu/~cs61c/fa17/img/riscvcard.pdf)
