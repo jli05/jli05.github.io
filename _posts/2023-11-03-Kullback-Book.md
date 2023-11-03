@@ -122,3 +122,5 @@ Over the entire space,
 </mtr>
 </mtable>
 </math>
+
+<math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>.
