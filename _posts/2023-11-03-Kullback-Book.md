@@ -40,3 +40,6 @@ One obtains
 
 when <math><mi>x</mi></math> is over a non-zero measured set.
 
+This logarithm of the likelihood ratio, <math><mo>log</mo><mo>[</mo><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>/</mo><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo></math> is defined as the information in <math><mi>X</mi><mo>=</mo><mi>x</mi></math> for discrimination in favour of <math><msub><mi>H</mi><mi>1</mi></msub></math> against <math><msub><mi>H</mi><mi>2</mi></msub></math>.
+
+
