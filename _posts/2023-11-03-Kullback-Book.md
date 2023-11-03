@@ -40,6 +40,37 @@ One obtains
 
 when <math><mi>x</mi></math> is over a non-zero measured set.
 
-This logarithm of the likelihood ratio, <math><mo>log</mo><mo>[</mo><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>/</mo><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo></math> is defined as the information in <math><mi>X</mi><mo>=</mo><mi>x</mi></math> for discrimination in favour of <math><msub><mi>H</mi><mi>1</mi></msub></math> against <math><msub><mi>H</mi><mi>2</mi></msub></math>.
+This logarithm of the likelihood ratio, <math><mo>log</mo><mrow><mo>[</mo><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>/</mo><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo></mrow></math> is defined as the *information* in <math><mi>X</mi><mo>=</mo><mi>x</mi></math> for discrimination in favour of <math><msub><mi>H</mi><mi>1</mi></msub></math> against <math><msub><mi>H</mi><mi>2</mi></msub></math>.
 
+The mean information for discrimination in favour of <math><msub><mi>H</mi><mi>1</mi></msub></math> against <math><msub><mi>H</mi><mi>2</mi></msub></math> over set <math><mi>E</mi></math> is
 
+<math display="block">
+<mrow><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo></mrow>
+<mo>=</mo>
+<mrow>
+<mo>{</mo>
+<mtable>
+<mtr>
+<mtd columnalign="left">
+<mrow><mfrac><mn>1</mn><mrow><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>E</mi><mo>)</mo></mrow></mfrac>
+<msub><mo>&int;</mo><mi>E</mi></msub>
+<mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+<mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+</mrow>
+</mtd>
+<mtd columnalign="left">
+<mrow><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>E</mi><mo>)</mo><mo>></mo><mn>0</mn></mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd columnalign="left">
+<mn>0</mn>
+</mtd>
+<mtd columnalign="left">
+<mrow><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>E</mi><mo>)</mo><mo>=</mo><mn>0</mn></mrow>
+</mtd>
+</mtr>
+</mtable>
+</mrow>
+</math>
