@@ -53,7 +53,7 @@ The mean information for discrimination in favour of <math><msub><mi>H</mi><mi>1
 <mtr>
 <mtd columnalign="left">
 <mrow><mfrac><mn>1</mn><mrow><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>E</mi><mo>)</mo></mrow></mfrac>
-<msub><mo>&int;</mo><mi>E</mi></msub>
+<msub><mo stretchy="true">&int;</mo><mi>E</mi></msub>
 <mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
 <mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
 <mrow><mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
@@ -73,4 +73,52 @@ The mean information for discrimination in favour of <math><msub><mi>H</mi><mi>1
 </mtr>
 </mtable>
 </mrow>
+</math>
+
+Over the entire space,
+
+<math display="block">
+<mtable>
+<mtr>
+<mtd>
+<mrow><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo></mrow>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<mrow><mo stretchy="true">&int;</mo>
+<mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd></mtd>
+<mtd><mo>=</mo></mtd>
+<mtd columnalign="left">
+<mrow><mo stretchy="true">&int;</mo>
+<mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+<mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<mrow>
+<mo>(</mo><mo stretchy="true">&int;</mo>
+<mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>)</mo>
+<mo>-</mo>
+<mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>)</mo></mrow></mfrac>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
 </math>
