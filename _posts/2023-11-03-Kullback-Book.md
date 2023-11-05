@@ -117,6 +117,7 @@ Over the entire space,
 <mrow><mi>d</mi><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>)</mo>
 <mo>-</mo>
 <mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>)</mo></mrow></mfrac>
+<mtext>.</mtext>
 </mrow>
 </mtd>
 </mtr>
@@ -152,10 +153,35 @@ Likewise,
 <mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
 <mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
 <mrow><mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+<mtext>.</mtext>
 </mrow>
 </mtd>
 </mtr>
 </mtable>
 </math>
 
-One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo></math>
+One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo></math>,
+
+<math display="block">
+<mtable>
+<mtr>
+<mtd>
+<mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
+</mtd>
+<mtd><mo>=</mo></mtd>
+<mtd><mrow><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>+</mo><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></mrow></mtd>
+</mtr>
+<mtr>
+<mtd></mtd>
+<mtd><mo>=</mo></mtd>
+<mtd>
+<mrow>
+<mo stretchy="true">&int;</mo>
+<mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mo>(</mo><mi>d</mi><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><mi>d</mi><msub><mi>μ</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow>
+<mtext>.</mtext>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</math>
