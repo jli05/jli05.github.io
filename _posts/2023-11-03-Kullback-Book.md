@@ -169,12 +169,12 @@ One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
 <mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
 </mtd>
 <mtd><mo>=</mo></mtd>
-<mtd><mrow><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>+</mo><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></mrow></mtd>
+<mtd columnalign="left"><mrow><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>+</mo><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></mrow></mtd>
 </mtr>
 <mtr>
 <mtd></mtd>
 <mtd><mo>=</mo></mtd>
-<mtd>
+<mtd columnalign="left">
 <mrow>
 <mo stretchy="true">&int;</mo>
 <mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
@@ -185,3 +185,5 @@ One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
 </mtr>
 </mtable>
 </math>
+
+If one swaps the position of hypothesis 1 and 2 one obtains the same quantity, <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo><mo>=</mo><mi>J</mi><mo>(</mo><mn>2,1</mn><mo>)</mo></math>. So it is symmetric, and the prior information disappeared. Kullback proposes to call <math><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo></math> or <math><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></math> *directed divergence*.
