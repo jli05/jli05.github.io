@@ -123,4 +123,4 @@ Over the entire space,
 </mtable>
 </math>
 
-<math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>.
+It is non-negative, <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>. On the web one may find examples in which it takes zero value or infinity.
