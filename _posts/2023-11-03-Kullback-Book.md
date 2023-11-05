@@ -124,3 +124,38 @@ Over the entire space,
 </math>
 
 It is non-negative, <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>. On the web one may find examples in which it takes zero value or infinity.
+
+The prior information, <math><mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>)</mo></mrow></mfrac></math> still remains in <math><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo></math>.
+
+Likewise,
+<math display="block">
+<mtable>
+<mtr>
+<mtd>
+<mrow><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></mrow>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<mrow><mo stretchy="true">&int;</mo>
+<mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><msub><mi>μ</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd></mtd>
+<mtd><mo>=</mo></mtd>
+<mtd columnalign="left">
+<mrow><mo stretchy="true">&int;</mo>
+<mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+<mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</math>
+
+One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo></math>
