@@ -177,6 +177,18 @@ One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
 <mtd columnalign="left">
 <mrow>
 <mo stretchy="true">&int;</mo>
+<mrow><mo>(</mo><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow>
+<mo>log</mo><mfrac><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
+<mrow><mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo></mrow>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd></mtd>
+<mtd><mo>=</mo></mtd>
+<mtd columnalign="left">
+<mrow>
+<mo stretchy="true">&int;</mo>
 <mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow></mfrac>
 <mrow><mo>(</mo><mi>d</mi><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><mi>d</mi><msub><mi>μ</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo></mrow>
 <mtext>.</mtext>
