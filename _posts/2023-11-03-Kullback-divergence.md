@@ -1,5 +1,5 @@
 ---
-title: Kullback, Information Theory and Statistics
+title: Kullback divergence
 layout: post
 ---
 
