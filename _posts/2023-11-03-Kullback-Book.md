@@ -26,7 +26,7 @@ and <math><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>i</mi></msub><mo>)</mo></math>
 <mtext>,</mtext>
 </math>
 
-when <math><mi>x</mi></math> is over a non-zero measured set.
+except over a zero measured set by <math><mi>λ</mi></math>.
 
 One obtains
 
@@ -38,7 +38,7 @@ One obtains
 <mtext>,</mtext>
 </math>
 
-when <math><mi>x</mi></math> is over a non-zero measured set.
+except over a zero measured set by <math><mi>λ</mi></math>.
 
 This logarithm of the likelihood ratio, <math><mo>log</mo><mrow><mo>[</mo><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>/</mo><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>]</mo></mrow></math> is defined as the *information* in <math><mi>X</mi><mo>=</mo><mi>x</mi></math> for discrimination in favour of <math><msub><mi>H</mi><mi>1</mi></msub></math> against <math><msub><mi>H</mi><mi>2</mi></msub></math>.
 
@@ -124,7 +124,7 @@ Over the entire space,
 </mtable>
 </math>
 
-It is non-negative, <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>. On the web one may find examples in which it takes zero value or infinity.
+It is non-negative, <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>. It is zero if <math><msub><mi>f</mi><mi>1</mi></msub><mo>=</mo><msub><mi>f</mi><mi>2</mi></msub></math> except over a zero measured set by <math><msub><mi>μ</mi><mi>1</mi></msub></math>. It attains <math><mo>+&infin;</mo></math> when for example, the space can be divided into two sets, on one of them <math><msub><mi>f</mi><mi>1</mi></msub><mo>&gt;</mo><mn>0</mn></math>, <math><msub><mi>f</mi><mi>2</mi></msub><mo>=</mo><mn>0</mn></math>, and on the other <math><msub><mi>f</mi><mi>1</mi></msub><mo>=</mo><mn>0</mn></math>, <math><msub><mi>f</mi><mi>2</mi></msub><mo>&gt;</mo><mn>0</mn></math>.
 
 The prior information, <math><mo>log</mo><mfrac><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>)</mo></mrow><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>)</mo></mrow></mfrac></math> still remains in <math><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo></math>.
 
