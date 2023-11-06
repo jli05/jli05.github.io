@@ -198,4 +198,49 @@ One may define the *divergence* <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
 </mtable>
 </math>
 
+If we slightly rewrite it,
+
+<math display="block">
+<mtable>
+<mtr>
+<mtd>
+<mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo>
+</mtd>
+<mtd><mo>=</mo></mtd>
+<mtd columnalign="left"><mrow><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>+</mo><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></mrow></mtd>
+</mtr>
+<mtr>
+<mtd></mtd>
+<mtd><mo>=</mo></mtd>
+<mtd columnalign="left">
+<mrow>
+<mo stretchy="true">&int;</mo>
+<mo>(</mo><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo>
+<mo>(</mo><mo>log</mo><mrow><msub><mi>f</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>-</mo><mo>log</mo><mrow><msub><mi>f</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo></mrow><mo>)</mo>
+<mi>d</mi><mi>λ</mi><mo>(</mo><mi>x</mi><mo>)</mo>
+</mrow>
+</mtd>
+</mtr>
+<mtr>
+<mtd></mtd>
+<mtd><mo>=</mo></mtd>
+<mtd columnalign="left">
+<mrow>
+<mo stretchy="true">&int;</mo>
+<mo>(</mo><mo>log</mo><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>1</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow><mo>-</mo><mo>log</mo><mrow><mi>P</mi><mo>(</mo><msub><mi>H</mi><mi>2</mi></msub><mo>|</mo><mi>x</mi><mo>)</mo></mrow><mo>)</mo>
+<mo>(</mo><mi>d</mi><msub><mi>μ</mi><mi>1</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>-</mo><mi>d</mi><msub><mi>μ</mi><mi>2</mi></msub><mo>(</mo><mi>x</mi><mo>)</mo><mo>)</mo>
+<mtext>.</mtext>
+</mrow>
+</mtd>
+</mtr>
+</mtable>
+</math>
+
 If one swaps the position of hypothesis 1 and 2 one obtains the same quantity, <math><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo><mo>=</mo><mi>J</mi><mo>(</mo><mn>2,1</mn><mo>)</mo></math>. So it is symmetric, and the prior information disappeared. Kullback proposes to call <math><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo></math> or <math><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo></math> *directed divergence*.
+
+As <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>, <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>2:1</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo></math>,
+
+<math display="block">
+<mn>0</mn><mo>&le;</mo><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo>
+<mtext>.</mtext>
+</math>
