@@ -244,3 +244,5 @@ As <math><mn>0</mn><mo>&le;</mo><mi>I</mi><mo>(</mo><mn>1:2</mn><mo>)</mo><mo>&l
 <mn>0</mn><mo>&le;</mo><mi>J</mi><mo>(</mo><mn>1,2</mn><mo>)</mo><mo>&le;</mo><mo>+&infin;</mo>
 <mtext>.</mtext>
 </math>
+
+Both bounds are attainable.
