@@ -23,6 +23,13 @@ doas poweroff
 doas reboot
 ```
 
+The commands to be executed after a user's login is saved in `$HOME/.profile`. For example, to customise the search `PATH`, add into `$HOME/.profile`
+
+```
+PATH=$PATH:<path>
+export PATH
+```
+
 The background services (aka init system) are managed by [OpenRC](https://github.com/OpenRC/openrc). For example, to start the `crond` daemon for the crontab service,
 
 ```sh
