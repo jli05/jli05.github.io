@@ -12,6 +12,8 @@ doas apk update
 doas apk upgrade
 apk search
 doas apk add
+doas poweroff
+doas reboot
 ```
 
 The `crond` daemon need be started for the crontab service to be run,
