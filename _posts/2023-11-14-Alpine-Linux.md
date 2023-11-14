@@ -7,7 +7,7 @@ layout: post
 
 Most documentation is on [https://wiki.alpinelinux.org/wiki/Main_Page](https://wiki.alpinelinux.org/wiki/Main_Page).
 
-At the moment, [cloud image](https://www.alpinelinux.org/cloud/)  is available for AWS. The ssh login user name is `alpine` by default. After the first install on a t4g.nano instance with 2 vCPUs, 0.5 GB memory, still 120 MB memory is free for use, in contrast to the installation of Amazon Linux 2023 on the same instance, which only leaves 40 MB memory free for use.
+At the moment, [cloud image](https://www.alpinelinux.org/cloud/)  is available for AWS. The ssh login user name is `alpine` by default. After the first install on a t4g.nano instance with 2 vCPUs, 0.5 GB memory, 390 MB memory is free for use, in contrast to the installation of Amazon Linux 2023 on the same instance, which leaves 300 MB memory free for use.
 
 Use `doas` for `sudo`, `apk` for `yum` or `apt` as software package manager.
 
