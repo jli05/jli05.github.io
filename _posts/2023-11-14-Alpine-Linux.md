@@ -16,11 +16,14 @@ doas apk update
 doas apk upgrade
 apk search
 doas apk add
+```
+
+```sh
 doas poweroff
 doas reboot
 ```
 
-The system services (aka init system) are managed by [OpenRC](https://github.com/OpenRC/openrc). For example, to start the `crond` daemon for the crontab service,
+The background services (aka init system) are managed by [OpenRC](https://github.com/OpenRC/openrc). For example, to start the `crond` daemon for the crontab service,
 
 ```sh
 rc-service crond status
@@ -33,9 +36,7 @@ but at reboot the last line above won't restart the `crond` service automaticall
 doas rc-update add crond default
 ```
 
-to schedule `crond` to be started at every reboot.
-
-Do
+to schedule `crond` to be started at every reboot; or simply
 
 ```sh
 rc-update
