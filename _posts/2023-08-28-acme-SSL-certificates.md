@@ -14,7 +14,7 @@ A prerequisite to installing `certbot` is to install `snapd`, by Let's Encrypt's
 ## `acme.sh`
 An alternative client program could be [acme.sh](https://acme.sh), an open-source shell script.
 
-Suppose the web server is [nginx](https://nginx.org). For best ease of installation, we need be as a superuser.
+Suppose the web server is [nginx](https://nginx.org). For best ease of installation, we need be as a superuser. The `letsencrypt` server appears not returning the necessary nonce if `wget` is used to query it, so `curl` must be installed.
 
 ```sh
 sudo su
