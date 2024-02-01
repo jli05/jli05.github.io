@@ -1,5 +1,5 @@
 ---
-title: Machines like Us: Toward AI with Common Sense
+title: "Machines like Us: Toward AI with Common Sense"
 layout: post
 ---
 
