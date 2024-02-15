@@ -8,3 +8,11 @@ Unlike [cronie](https://github.com/cronie-crond/cronie) the crontab daemon, the 
 ```crontab
 * * * * * sh -c "cmd 2>&1 | sed -e 's/^/CMDOUT (/' -e 's/$/)/' | logger -t CROND[$(cat /run/crond.pid)]"
 ```
+
+so that the output or error message will be displayed as 
+
+```
+<time> ... CROND[<pid>] CMDOUT (...)
+```
+
+in the syslog message `/var/log/messages`.
