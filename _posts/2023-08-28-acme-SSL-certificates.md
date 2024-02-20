@@ -11,7 +11,7 @@ The CA communicates with any client website via [Automatic Certificate Managemen
 A prerequisite to installing `certbot` is to install `snapd`, by Let's Encrypt's instruction. On Amazon Linux 2023, we'd be stuck, as `snapd` is not in the software repository.
 
 
-## `acme.sh`
+## `acme.sh` ACME Client
 An alternative client program could be [acme.sh](https://acme.sh), an open-source shell script.
 
 ### nginx Web Server
@@ -31,7 +31,7 @@ or on [Alpine Linux](https://www.alpinelinux.org),
 /etc/init.d/nginx reload
 ```
 
-### The Domain Configuration File
+### A Default Domain Configuration File
 First create a default `/etc/nginx/http.d/<domain>.conf`,
 
 ```
