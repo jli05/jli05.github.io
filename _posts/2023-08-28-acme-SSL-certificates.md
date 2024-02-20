@@ -20,14 +20,20 @@ Suppose the web server is [nginx](https://nginx.org). For best ease of installat
 sudo su
 curl https://get.acme.sh | sh -s email=<email>
 /root/.acme.sh/acme.sh --set-default-ca --server letsencrypt
-/root/.acme.sh/acme.sh --issue --nginx /etc/nginx/nginx.conf -d <server_name>
+/root/.acme.sh/acme.sh --issue --nginx <conf> -d <domain>
 ```
 
 As an aside, to revoke or renew a certificate,
 
 ```sh
-/root/.acme.sh/acme.sh --revoke --domain <domain_name>
-/root/.acme.sh/acme.sh --renew --domain <domain_name>
+/root/.acme.sh/acme.sh --revoke --domain <domain>
+/root/.acme.sh/acme.sh --renew --domain <domain>
+```
+
+To upgrade the `acme` client itself,
+
+```sh
+/root/.acme.sh/acme.sh upgrade
 ```
 
 After issuance of the certificate, press `Ctrl+D` to quit the `su` session and return as normal user. **Back up** the certificate files as soon as you can.
@@ -40,8 +46,8 @@ Now go to `/etc/nginx/nginx.conf` or the relevant `.conf` file under `/etc/nginx
     listen       [::]:443 ssl http2;
     server_name  <server_name>;
 
-    ssl_certificate /root/.acme.sh/<server_name>_ecc/fullchain.cer;
-    ssl_certificate_key /root/.acme.sh/<server_name>_ecc/<server_name>.key;
+    ssl_certificate /root/.acme.sh/<domain>_ecc/fullchain.cer;
+    ssl_certificate_key /root/.acme.sh/<domain>_ecc/<domain>.key;
     ssl_session_cache shared:SSL:1m;
     ssl_session_timeout  10m;
     ssl_ciphers PROFILE=SYSTEM;
