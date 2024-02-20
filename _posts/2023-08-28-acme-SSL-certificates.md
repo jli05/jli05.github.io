@@ -14,7 +14,7 @@ A prerequisite to installing `certbot` is to install `snapd`, by Let's Encrypt's
 ## `acme.sh`
 An alternative client program could be [acme.sh](https://acme.sh), an open-source shell script.
 
-Suppose the web server is [nginx](https://nginx.org). For best ease of installation, we need be as a superuser. The `letsencrypt` server appears not returning the necessary nonce if `wget` is used to query it, so `curl` must be installed. Use the relevant `.conf` file for the domain name in question.
+Suppose the web server is [nginx](https://nginx.org). For best ease of installation, we need be as a superuser. The `letsencrypt` server appears not returning the necessary nonce if `wget` is used to query it, so `curl` must be installed. Use the relevant `.conf` file under `/etc/nginx/http.d` for the domain in question.
 
 ```sh
 sudo su
@@ -41,20 +41,20 @@ After issuance of the certificate, press `Ctrl+D` to quit the `su` session and r
 Now go to `/etc/nginx/nginx.conf` or the relevant `.conf` file under `/etc/nginx/http.d`, uncomment the lines for the https protocol and set the section up.
 
 ```
-  server {
-    listen       443 ssl http2;
-    listen       [::]:443 ssl http2;
-    server_name  <server_name>;
+server {
+  listen       443 ssl http2;
+  listen       [::]:443 ssl http2;
+  server_name  <server_name>;
 
-    ssl_certificate /root/.acme.sh/<domain>_ecc/fullchain.cer;
-    ssl_certificate_key /root/.acme.sh/<domain>_ecc/<domain>.key;
-    ssl_session_cache shared:SSL:1m;
-    ssl_session_timeout  10m;
-    ssl_ciphers PROFILE=SYSTEM;
-    ssl_prefer_server_ciphers on;
+  ssl_certificate /root/.acme.sh/<domain>_ecc/fullchain.cer;
+  ssl_certificate_key /root/.acme.sh/<domain>_ecc/<domain>.key;
+  ssl_session_cache shared:SSL:1m;
+  ssl_session_timeout  10m;
+  ssl_ciphers PROFILE=SYSTEM;
+  ssl_prefer_server_ciphers on;
 
-    ...
-  }
+  ...
+}
 ```
 
 or if certain SSL params were already set up in the global `/etc/nginx/nginx.conf`,

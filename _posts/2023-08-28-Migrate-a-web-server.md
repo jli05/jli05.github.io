@@ -24,19 +24,19 @@ To retrieve an already issued certificate with `certbot`, the http (port number 
 sudo certbot certonly --standalone -d <domain>
 ```
 
-To re-configure `nginx` web server with the new certificate, open the relevant `.conf` file, in the section for https (port number usually 443), change the two lines for private key and full chain certificate files,
+To re-configure `nginx` web server with the new certificate, open the relevant `.conf` file under `/etc/nginx/http.d`, in the section for https (port number usually 443), change the two lines for private key and full chain certificate files,
 
 ```
-  server {
-    listen       443 ssl http2;
-    listen       [::]:443 ssl http2;
-    server_name  <server_name>;
+server {
+  listen       443 ssl http2;
+  listen       [::]:443 ssl http2;
+  server_name  <server_name>;
 
-    ssl_certificate <full_chain_certificate_file>;
-    ssl_certificate_key <private_key_file>;
+  ssl_certificate <full_chain_certificate_file>;
+  ssl_certificate_key <private_key_file>;
 
-    ...
-  }
+  ...
+}
 ```
 
 To force reload `nginx` web server,
