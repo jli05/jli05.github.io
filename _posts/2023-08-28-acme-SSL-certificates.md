@@ -100,7 +100,7 @@ Once done, reload the nginx service,
 sudo service nginx force-reload
 ```
 
-Or on Alpine Linux,
+Or on [Alpine Linux](https://www.alpinelinux.org),
 
 ```sh
 /etc/init.d/nginx reload
