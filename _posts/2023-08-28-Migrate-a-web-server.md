@@ -76,3 +76,19 @@ the referred `/etc/letsencrypt/ssl-dhparams.pem`,
 ...
 -----END DH PARAMETERS-----
 ```
+
+At last reload the web server,
+
+on systemd-based systems,
+
+```sh
+nginx -t
+sudo service nginx force-reload
+```
+
+or on [Alpine Linux](https://www.alpinelinux.org),
+
+```sh
+/etc/init.d/nginx checkconfig
+/etc/init.d/nginx reload
+```
