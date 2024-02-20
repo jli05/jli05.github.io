@@ -1,5 +1,5 @@
 ---
-title: Stop a Service to Autostart at Bootup
+title: Stop a Service Autostart at Bootup on systemd
 layout: post
 ---
 
