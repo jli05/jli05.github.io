@@ -10,7 +10,7 @@ Suppose the domain is `example.com`, associated with a static IP address, for wh
 1. In [AWS](https://aws.amazon.com), create a new Virtual Machine (VM) instance. Set it up with code and data.
 2. Dissociate the Elastic IP from the old server, associate the Elastic IP to the new server even when both are running.
 3. To set up the web server, if using the `certbot` ACME client of [Let's Encrypt](https://letsencrypt.org) see below, or with the `acme.sh` client follow [this post](/2023/08/28/acme-SSL-certificates.html).
-4. Leave the new server run for some time. Deactivate gradually the crontab jobs on the old server.
+4. Leave the new server run for some time. Deactivate gradually the crontab jobs on the old server and [turn off](/2024/02/20/Stop-Service-Auto-Start-At-Bootup.html) the crond service from autostart at bootup.
 
 ## Re-issue the SSL Certificate
 To retrieve an already issued certificate with `certbot`, the http (port number 80) port must be open,
