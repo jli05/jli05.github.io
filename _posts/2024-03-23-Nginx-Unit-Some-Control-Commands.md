@@ -20,6 +20,9 @@ curl -X PUT --data-binary @config.json --unix-socket /run/control.unit.sock http
 #
 curl -X PUT --data-binary @bundle.pem --unix-socket /run/control.unit.sock http://localhost/certificates/bundle
 
+# delete SSL bundle
+curl -X DELETE --unix-socket /run/control.unit.sock http://localhost/certificates/bundle
+
 # change one item in the configuration
 curl -X PUT -d '"/var/log/unit/access.log"' --unix-socket /run/control.unit.sock http://localhost/config/access_log
 
