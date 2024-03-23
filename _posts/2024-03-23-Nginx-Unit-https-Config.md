@@ -35,7 +35,7 @@ As a follow-up to [previous post](/2024/03/23/Nginx-Unit-Web-Server.html), in or
 }
 ```
 
-To rewrite http request into https request, change the listen on port 80,
+To rewrite http request into https request, change the listener on port 80,
 
 ```json
 {
