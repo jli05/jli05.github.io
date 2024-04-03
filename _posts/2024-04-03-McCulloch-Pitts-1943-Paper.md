@@ -12,4 +12,4 @@ Bulletin of Mathematical Biophysics, Volume 5, 1943
 70th Anniversary of Publication: Warren McCulloch & Walter Pitts - A Logical Calculus of the Ideas Immanent in Nervous Activity
 Jiří Pospíchal & Vladimír Kvasnička
 Emergent Trends in Robotics and Intelligent Systems
-[pdf](/assets/Kvasnicka_Pospichal_SETINAIR+2013.pdf)
+[pdf](/assets/Kvasnicka_Pospichal_SETINAIR%202013.pdf)
