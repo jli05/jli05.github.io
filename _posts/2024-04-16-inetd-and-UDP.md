@@ -79,7 +79,7 @@ Test the UDP service with
 printf '2024-04-13,GS.US,450.3\n2024-04-13,AAPL.US,140.25\n'|nc -u 127.0.0.1 27000
 ```
 
-The second UDP service illustrates how to do output on UDP. Unlike the TCP service, simply `print()` won't work, one has to use `socket.sendto()` on UDP. Note unless `socket.connect()` had been called, a UDP socket can receive data from any peer thus has no fixed peer. Calling `socket.getpeername()` would throw an exception. Call `socket.recvfrom()` to receive incoming data and get the peer address at the same time.
+The second UDP service illustrates how to do output on UDP. Unlike the TCP service, simply `print()` won't work, one has to use `socket.sendto()` on UDP. Note unless `socket.connect()` had been called, a UDP socket can receive data from any peer thus has no fixed peer. Generally calling `socket.getpeername()` on an UDP socket would have an exception raised. But we can read out the peer's name (host and port) when receiving a particular message with `socket.recvfrom()`.
 
 `$HOME/bin/udpclient2.py`:
 
