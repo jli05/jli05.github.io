@@ -26,9 +26,10 @@ As configured, the first is a TCP service. The user code `$HOME/bin/lower.py` do
 ```python
 # convert each line in input to lower case
 
-with open(0) as f:
-    for line in f:
-        print(line.lower(), end='')
+from sys import stdin
+
+for line in stdin:
+    print(line.lower(), end='')
 ```
 
 One may test with
