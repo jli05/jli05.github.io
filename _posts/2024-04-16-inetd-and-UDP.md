@@ -95,4 +95,6 @@ with socket(fileno=stdin.fileno()) as sock:
     sock.sendto(recv.upper().encode('utf8'), peer)
 ```
 
+In C, call `getsockname` to get the socket name details, in order to recreate the UDP socket. As stdin's file descriptor is 0 by default, call `getsockname(0, .., ..)`.
+
 Check the system log for example `/var/log/messages`, `inetd` may write error messages from the services there.
