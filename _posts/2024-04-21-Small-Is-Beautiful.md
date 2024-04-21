@@ -20,6 +20,8 @@ Earnest Bader start Scott Bader Co Ltd in 1920, producing advanced materials. Th
 
 6. none of the products of Scott Bader Co Ltd shall be sold to customers who are known to use them for war-related purposes.
 
+More than one hundred years later, Scott Bader is still well in existence. It turned up in web search and on maps, headquartered near Nottingham, England.
+
 ## Managerial rights and pecuniary rights
 For large-scale enterprise, the author suggests the public automatically hold one half of the shares, however by which they hold no voting rights. Managerial rights are solely to those who operate the company for flexibility of making decisions and taking initiatives.
 
