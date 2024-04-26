@@ -22,7 +22,7 @@ def lambda_handler(event, context):
     }
 ```
 
-This Lambda function need be associated with IAM Role, which contains policy:
+This Lambda function need be associated with an IAM Role, with the policy below among its policy set:
 
 ```
 {
@@ -40,5 +40,7 @@ This Lambda function need be associated with IAM Role, which contains policy:
     ]
 }
 ```
+
+To check for Lambda function running logs, go to CloudWatch/Logs for output and error messages.
 
 If this Lambda function need be regularly evoked, create a EventBridge Rule in AWS. The expression is similar to cron expression for setting the times and commands.
