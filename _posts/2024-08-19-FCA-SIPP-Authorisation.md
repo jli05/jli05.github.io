@@ -17,6 +17,7 @@ You may also find the following chapters of the Perimeter Guidance Manual (PERG)
 * PERG 2.7.7 - Arranging deals in investments points (1) and (2)  
 * PERG 2.7.8 - Managing investments   
 * PERG 2.7.14C - Advising on investments   
+* PERG 12.2 - Establishing, operating or winding up a personal pension scheme
 
 ## MiFID business?
 Read through PERG 13, and more specifically PERG 13.3.
