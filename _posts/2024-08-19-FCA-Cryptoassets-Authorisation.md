@@ -9,9 +9,9 @@ You should read our [guidance](https://www.fca.org.uk/publication/policy/ps19-22
 ## Cryptoassets - AML/CTF Regime
 Since 10 January 2020, businesses seeking to carry on business in the UK as a cryptoasset exchange provider or custodian wallet provider have needed to be registered with the FCA under the Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017 (‘MLRs’).
 
-The following information on our?website will help you determine if you need to register with us.
+The following information on our website will help you determine if you need to register with us.
 
-* [Cryptoassets: AML/CTF regime?](https://www.fca.org.uk/firms/financial-crime/cryptoassets-aml-ctf-regime)
+* [Cryptoassets: AML/CTF regime](https://www.fca.org.uk/firms/financial-crime/cryptoassets-aml-ctf-regime)
 * [Cryptoassets: AML/CTF regime: feedback on good and poor-quality application](https://www.fca.org.uk/firms/cryptoassets-aml-ctf-regime/feedback-good-poor-applications)
 * [Cryptoassets: AML/CTF regime: Register with the FCA](https://www.fca.org.uk/firms/cryptoassets-aml-ctf-regime/registering)
 
