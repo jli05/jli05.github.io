@@ -6,6 +6,11 @@ layout: post
 ## Do I need to be authorised?
 You should read our [guidance](https://www.fca.org.uk/publication/policy/ps19-22.pdf) on Cryptoassets and in particular, read chapters 2 and 3 which cover regulated tokens (security tokens and e-tokens) and unregulated tokens. Page 30 of this document has a flow diagram which may also help you determine if authorisation is required.
 
+## Authorisation?
+You’ll need to be authorised by the FCA if you’re carrying on a regulated activity by way of business in the UK involving a cryptoasset, for example if you’re carrying on a specified activity (eg arranging deals in investments) in relation to a cryptoasset that is a specified investment (eg a security token), unless you can rely on an exemption (see PERG 2.10).
+
+If you engage in regulated activity without being authorised or exempt, you may be criminally prosecuted and may face up to 2 years’ imprisonment or an unlimited fine or both. If you are already authorised but do not have the correct permissions for the regulated activity you’re carrying on, you may face enforcement action by the FCA.
+
 ## Cryptoassets - AML/CTF Regime
 Since 10 January 2020, businesses seeking to carry on business in the UK as a cryptoasset exchange provider or custodian wallet provider have needed to be registered with the FCA under the Money Laundering, Terrorist Financing and Transfer of Funds (Information on the Payer) Regulations 2017 (‘MLRs’).
 
