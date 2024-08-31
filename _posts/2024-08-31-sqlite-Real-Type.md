@@ -21,4 +21,9 @@ sqlite> select b + 3 from tab;
 3
 3
 8.0
+sqlite> select b * 5 from tab;
+
+0
+0
+25.0
 ```
