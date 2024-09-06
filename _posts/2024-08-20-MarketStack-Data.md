@@ -3,7 +3,7 @@ title: MarketStack Data
 layout: post
 ---
 
-The end-of-day data is delayed by about 1h11m.
+The end-of-day Nasdaq data is delayed by about 1h11m, NYSE data is delayed by .
 
 ```sh
 % curl 'http://api.marketstack.com/v1/eod/latest?access_key=<access_key>&symbols=AAPL'
