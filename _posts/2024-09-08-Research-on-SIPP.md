@@ -1,0 +1,44 @@
+---
+title: Scrap book of research on SIPP
+layout: post
+---
+
+
+- Regulations
+    - Finance Act 2004
+    - Financial Services and Markets Act 2000
+        - How to get permission?
+        - Difference vs MiFID
+    - PERG 12.2 Establishing, operating or winding up a personal pension scheme [https://www.handbook.fca.org.uk/handbook/PERG/12/2.html](https://www.handbook.fca.org.uk/handbook/PERG/12/2.html)
+    - Capital framework [https://www.fca.org.uk/publications/policy-statements/ps14-12-new-capital-framework-self-invested-personal-pension-sipp](https://www.fca.org.uk/publications/policy-statements/ps14-12-new-capital-framework-self-invested-personal-pension-sipp)
+    - Protection [https://www.fscs.org.uk](https://www.fscs.org.uk)
+        - Levy?   communications@fscs.org.uk 
+        - If the company holding clients assets goes into trouble
+    - Protection beyond £85,000?
+    - [https://www.gov.uk/guidance/pension-administrators-register-as-an-administrator](https://www.gov.uk/guidance/pension-administrators-register-as-an-administrator)
+    - How?
+        - Promotion PERG 8
+        - Employer can pay into SIPP [https://www.ii.co.uk/ii-accounts/sipp/making-contributions/employer-contributions-to-sipp](https://www.ii.co.uk/ii-accounts/sipp/making-contributions/employer-contributions-to-sipp)
+        - Operating: reporting, tax
+        - Investment PERG 10.4 10.5
+        - Client assets requirements CASS 7 8
+        - What is “safe custody asset”?
+        - Distribution, Convert to annuity
+        - CASS 7.13.26 money market funds : client money vs safe custody asset
+    - FCA Consumer Duty (2023)
+    - Providers:
+        - Hargreaves Lansdown
+        - AJ Bell
+        - Fidelity
+        - Vanguard
+        - Charles Stanley Direct
+        - FreeTrade
+- Laura D: Head of Authorisations
+- Investment needs 
+- the Rt Hon Rachel Reeves and Pensions Minister Emma Reynolds
+- FCA:
+    - [https://www.fca.org.uk/firms/authorisation/consumer-investments](https://www.fca.org.uk/firms/authorisation/consumer-investments).  Pension Category 6.  £10,880 authorisation fee
+    - PERG 12
+    - PERG 2,   2.3,  2.4,  2.6,  2.7,   2.7.14,  2.7.16G
+    - [https://www.fca.org.uk/firms/innovation/innovation-pathways](https://www.fca.org.uk/firms/innovation/innovation-pathways)  innovationpathways@fca.org.uk 
+    - APCC  [https://apcc.org.uk](https://apcc.org.uk)
