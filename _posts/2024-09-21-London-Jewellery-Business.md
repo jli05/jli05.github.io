@@ -5,6 +5,6 @@ layout: post
 
 [Zoey Filigree](https://www.zoeyfiligree.co.uk) 
 
-SKYDEA Studio
+SKYIDEA Studio
 
 Peony Pavillion qipao
