@@ -13,4 +13,4 @@ Part 2 [https://royal-statistical-society.github.io/datavisguide/docs/principles
 
 Part 3 [https://royal-statistical-society.github.io/datavisguide/docs/choosing.html](https://royal-statistical-society.github.io/datavisguide/docs/choosing.html) and [https://royal-statistical-society.github.io/datavisguide/docs/styling.html](https://royal-statistical-society.github.io/datavisguide/docs/styling.html)
 
-Part 4 upcoming
+Part 4 should be published sometime in December, but it will essentially be this part of the guide: [https://royal-statistical-society.github.io/datavisguide/docs/tools.html](https://royal-statistical-society.github.io/datavisguide/docs/tools.html)
