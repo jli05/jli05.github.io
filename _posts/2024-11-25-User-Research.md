@@ -3,6 +3,8 @@ title: User Research by Rory M Horne
 layout: post
 ---
 
+[Slides](https://docs.google.com/presentation/d/1BHvmn-ewLz1LGUftmIkrDTOPl9T-H2_Sxq7y72-keoc/edit?referrer=luma#slide=id.g3197ffd3d43_0_13)
+ 
 ## Overview
 ![overview 1](/assets/2024-user-research/overview-1.jpeg)
 
