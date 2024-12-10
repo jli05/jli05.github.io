@@ -3,6 +3,9 @@ title: PR workshop at British Library
 layout: post
 ---
 
+Nicola Millington
+pr@fpcomms.co.uk
+
 ![brand narrative 1](/assets/2024-PR/brand-narrative-1.jpg)
 
 ![brand narrative 2](/assets/2024-PR/brand-narrative-2.jpg)
