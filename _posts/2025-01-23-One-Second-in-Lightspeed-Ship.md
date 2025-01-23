@@ -123,7 +123,61 @@ therefore
 One can verify that from the static observer's point of view,
 
 <math display="block">
+<mtable>
 
+<mtr>
+<mtd>
+<mi>x</mi>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<mfrac>
+<mrow><msup><mi>x</mi><mo>&apos;</mo></msup><mo>+</mo><mi>u</mi><msup><mi>t</mi><mo>&apos;</mo></msup></mrow>
+<msqrt><mrow><mn>1</mn><mo>-</mo><msup><mi>u</mi><mn>2</mn></msup><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></msqrt>
+</mfrac>
+</mtd>
+</mtr>
 
+<mtr>
+<mtd>
+<mi>y</mi>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<msup><mi>y</mi><mo>&apos;</mo></msup>
+</mtd>
+</mtr>
 
+<mtr>
+<mtd>
+<mi>z</mi>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<msup><mi>z</mi><mo>&apos;</mo></msup>
+</mtd>
+</mtr>
+
+<mtr>
+<mtd>
+<mi>t</mi>
+</mtd>
+<mtd>
+<mo>=</mo>
+</mtd>
+<mtd columnalign="left">
+<mfrac>
+<mrow><msup><mi>t</mi><mo>&apos;</mo></msup><mo>+</mo><mi>u</mi><msup><mi>x</mi><mo>&apos;</mo></msup><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup></mrow>
+<msqrt><mrow><mn>1</mn><mo>-</mo><msup><mi>u</mi><mn>2</mn></msup><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup></mrow></msqrt>
+</mfrac>
+</mtd>
+</mtr>
+
+</mtable>
 </math>
