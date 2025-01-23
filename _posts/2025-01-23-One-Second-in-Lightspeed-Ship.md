@@ -68,7 +68,6 @@ Denote the speed of light as <math><mi>c</mi></math>. According to the relativit
 </math>
 
 In the last equation above, note as
-
 <math>
 <mi>u</mi><mo>&le;</mo><mi>c</mi><mo>,</mo>
 <mi>x</mi><mo>/</mo><mi>t</mi><mo>&le;</mo><mi>c</mi>
