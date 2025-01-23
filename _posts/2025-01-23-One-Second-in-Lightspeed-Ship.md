@@ -178,4 +178,4 @@ One may verify that from the static observer's point of view,
 </mtable>
 </math>
 
-From the last equation, if <math><mi>u</mi></math> is close to the lightspeed, the denominator can be infinitely small, <math><mi>t</mi></math> can be infinitely large.
+From the last equation, if <math><mi>u</mi></math> is close to the lightspeed, the denominator can be infinitely small, as long as <math><msup><mi>t</mi><mo>&apos;</mo></msup><mo>&gt;</mo><mn>0</mn></math>, <math><mi>t</mi></math> can be infinitely large.
