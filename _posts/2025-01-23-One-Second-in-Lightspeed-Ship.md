@@ -67,23 +67,52 @@ Denote the speed of light as <math><mi>c</mi></math>. According to the relativit
 </mtable>
 </math>
 
-In the last equation above, note 
+In the last equation above, note as
 
-<math display="block">
+<math>
 <mi>u</mi><mo>&le;</mo><mi>c</mi><mo>,</mo>
 <mi>x</mi><mo>/</mo><mi>t</mi><mo>&le;</mo><mi>c</mi>
 </math>
 
 <math display="block">
-<mi>u</mi><mi>x</mi><mo>/</mo><mi>t</mi><mo>&le;</mo><msup><mi>c</mi><mn>2</mn></msup>
-</math>
+<mtable>
+<mtr>
+<mtd columnalign="right">
+<mi>u</mi><mi>x</mi><mo>/</mo><mi>t</mi>
+</mtd>
+<mtd>
+<mo>&le;</mo>
+</mtd>
+<mtd columnalign="left">
+<msup><mi>c</mi><mn>2</mn></msup>
+</mtd>
+</mtr>
 
-<math display="block">
-<mi>u</mi><mi>x</mi><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup><mo>&le;</mo><mi>t</mi>
-</math>
+<mtr>
+<mtd columnalign="right">
+<mi>u</mi><mi>x</mi><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup>
+</mtd>
+<mtd>
+<mo>&le;</mo>
+</mtd>
+<mtd columnalign="left">
+<mi>t</mi>
+</mtd>
+</mtr>
 
-<math display="block">
-<mi>t</mi><mo>-</mo><mi>u</mi><mi>x</mi><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup><mo>&ge;</mo><mn>0</mn>
+<mtr>
+<mtd columnalign="right">
+<mi>t</mi><mo>-</mo><mi>u</mi><mi>x</mi><mo>/</mo><msup><mi>c</mi><mn>2</mn></msup>
+</mtd>
+<mtd>
+<mo>&ge;</mo>
+</mtd>
+<mtd columnalign="left">
+<mn>0</mn>
+</mtd>
+</mtr>
+
+</mtable>
 </math>
 
 therefore
