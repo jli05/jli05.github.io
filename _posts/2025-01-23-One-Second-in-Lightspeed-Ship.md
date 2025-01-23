@@ -67,11 +67,7 @@ Denote the speed of light as <math><mi>c</mi></math>. According to the relativit
 </mtable>
 </math>
 
-In the last equation above, note as
-<math>
-<mi>u</mi><mo>&le;</mo><mi>c</mi><mo>,</mo>
-<mi>x</mi><mo>/</mo><mi>t</mi><mo>&le;</mo><mi>c</mi>
-</math>
+In the last equation above, note as <math><mi>u</mi><mo>&le;</mo><mi>c</mi></math>, <math><mi>x</mi><mo>/</mo><mi>t</mi><mo>&le;</mo><mi>c</mi></math>,
 
 <math display="block">
 <mtable>
@@ -117,10 +113,10 @@ In the last equation above, note as
 therefore
 
 <math display="block">
-<msup><mi>t</mi><mo>&apos;</mo></msup><mo>&ge;</mo><mn>0</mn>
+<msup><mi>t</mi><mo>&apos;</mo></msup><mo>&ge;</mo><mn>0</mn><mtext>.</mtext>
 </math>
 
-One can verify that from the static observer's point of view,
+One may verify that from the static observer's point of view,
 
 <math display="block">
 <mtable>
@@ -181,3 +177,5 @@ One can verify that from the static observer's point of view,
 
 </mtable>
 </math>
+
+From the last equation, if <math><mi>u</mi></math> is close to the lightspeed, the denominator can be infinitely small, <math><mi>t</mi></math> can be infinitely large.
