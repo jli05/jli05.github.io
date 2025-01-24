@@ -118,7 +118,7 @@ therefore
 <msup><mi>t</mi><mo>&apos;</mo></msup><mo>&ge;</mo><mn>0</mn><mtext>.</mtext>
 </math>
 
-One may verify that from the static observer's point of view,
+One may verify that given B's observations, A's system "at rest" would record
 
 <math display="block">
 <mtable>
