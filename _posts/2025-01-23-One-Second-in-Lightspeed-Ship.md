@@ -5,7 +5,7 @@ layout: post
 
 Suppose the relative motion of two observers A and B is along their common <math><mi>x</mi></math>-axes. A is static, B is in a starship moving at speed <math><mi>u</mi></math> relative to A. Inside the starship, some object begins to move on the <math><mi>x</mi></math>-axis.
 
-A observes the moving object and records the coordinates <math><mi>x</mi></math>, <math><mi>y</mi></math>, <math><mi>z</mi></math> at any time <math><mi>t</mi></math>. B observes the same moving object, within his system, he records coordinates <math><msup><mi>x</mi><mo>&apos;</mo></msup></math>, <math><msup><mi>y</mi><mo>&apos;</mo></msup></math>, <math><msup><mi>z</mi><mo>&apos;</mo></msup></math> at any time <math><msup><mi>t</mi><mo>&apos;</mo></msup></math>.
+A observes the moving object and records its coordinates <math><mi>x</mi></math>, <math><mi>y</mi></math>, <math><mi>z</mi></math> at any time <math><mi>t</mi></math>. B observes the same moving object, within his system, he records coordinates <math><msup><mi>x</mi><mo>&apos;</mo></msup></math>, <math><msup><mi>y</mi><mo>&apos;</mo></msup></math>, <math><msup><mi>z</mi><mo>&apos;</mo></msup></math> at any time <math><msup><mi>t</mi><mo>&apos;</mo></msup></math>.
 
 Denote the speed of light as <math><mi>c</mi></math>. According to the relativity of Einstien,
 
