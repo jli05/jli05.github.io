@@ -1,5 +1,5 @@
 ---
-title: How DeepSeeks learns reasoning capability
+title: How DeepSeek learns reasoning capability
 layout: post
 ---
 
