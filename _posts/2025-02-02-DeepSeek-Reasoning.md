@@ -5,6 +5,8 @@ layout: post
 
 It first learns simple rules exactly right, then complex combinatorial thinking process.
 
+After discussion with friends [https://jairwuilloud.com](https://jairwuilloud.com) and at Turing Institute:
+
 1. Pattern matching in a memory-economical way ("attention latent vector"). A pattern is a short piece of text, for example "United Kingdom" as in "Lorem ipsum dolor sit amet United Kingdom consectetur adipiscing elit".
 
 2. Learn the basic rules exactly right ("Finetuning"), like 2 + 3 = 5.
