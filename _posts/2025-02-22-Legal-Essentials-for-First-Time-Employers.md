@@ -1,5 +1,5 @@
 ---
-title: Hiring with confidence: legal essentials for first time employers
+title: "Hiring with confidence: legal essentials for first time employers"
 layout: post
 ---
 
