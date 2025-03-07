@@ -10,17 +10,17 @@ Differentiable Logic Cellular Automata
 | ------------ | ------------------- | ---------------------- |
 |  0           | FALSE               | <math><mn>0</mn></math> |
 |  1           | AND                 | <math><mi>a</mi><mi>b</mi></math> |
-|  2           | A AND (NOT B)       | a - a * b              |
-|  3           | A                   |     a                  |
-|  4           | (NOT A) AND B       | b - a * b              |
-|  5           | B                   |    b                   |
-|  6           | XOR                 | a + b - 2 a * b        |
-|  7           |  OR                 | a + b - a * b          |
-|  8           | NOR                 | 1 - (a + b - a * b)    |
-|  9           | XNOR                | 1 - (a + b - 2a * b)   |
-|  10          | NOT B               | 1 - b                  |
-|  11          | A OR (NOT B)        | 1 - b + a * b          |
-|  12          | NOT A               | 1 - a                  |
-|  13          | (NOT A) OR B        | 1 - a + a * b          |
-|  14          | NAND                | 1 - a * b              |
-|  15          | TRUE                | 1                      |
+|  2           | A AND (NOT B)       | <math><mi>a</mi><mo>-</mo><mi>a</mi><mi>b</mi></math>  |
+|  3           | A                   | <math><mi>a</mi></math>  |
+|  4           | (NOT A) AND B       | <math><mi>b</mi><mo>-</mo><mi>a</mi><mi>b</mi></math>  |
+|  5           | B                   | <math><mi>b</mi></math> |
+|  6           | XOR                 | <math><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi></math> |
+|  7           |  OR                 | <math><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>a</mi><mi>b</mi></math> |
+|  8           | NOR                 | <math><mn>1</mn><mo>-</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mi>a</mi><mi>b</mi><mo>)</mo></math>  |
+|  9           | XNOR                | <math><mn>1</mn><mo>-</mo><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>-</mo><mn>2</mn><mi>a</mi><mi>b</mi><mo>)</mo></math>   |
+|  10          | NOT B               | <math><mn>1</mn><mo>-</mo><mi>b</mi></math>   |
+|  11          | A OR (NOT B)        | <math><mn>1</mn><mo>-</mo><mi>b</mi><mo>+</mo><mi>a</mi><mi>b</mi></math>          |
+|  12          | NOT A               | <math><mn>1</mn><mo>-</mo><mi>a</mi></math>                  |
+|  13          | (NOT A) OR B        | <math><mn>1</mn><mo>-</mo><mi>a</mi><mo>+</mo><mi>a</mi><mi>b</mi></math>          |
+|  14          | NAND                | <math><mn>1</mn><mo>-</mo><mi>a</mi><mi>b</mi></math>     |
+|  15          | TRUE                | <math><mn>1</mn></math>   |
