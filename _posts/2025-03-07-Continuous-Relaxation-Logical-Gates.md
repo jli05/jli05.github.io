@@ -8,8 +8,8 @@ Differentiable Logic Cellular Automata
 
 | Index        | Operation           | Continuous relaxation  |
 | ------------ | ------------------- | ---------------------- |
-|  0           | FALSE               |        0               |
-|  1           | AND                 |      a * b             |
+|  0           | FALSE               | <math><mn>0</mn></math> |
+|  1           | AND                 | <math><mi>a</mi><mi>b</mi></math> |
 |  2           | A AND (NOT B)       | a - a * b              |
 |  3           | A                   |     a                  |
 |  4           | (NOT A) AND B       | b - a * b              |
