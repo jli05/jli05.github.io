@@ -22,4 +22,20 @@ The principal factors affecting the Brazilian payment system are:
 
 * the low proportion of consumers with cheque accounts compared with that in developed countries
 * the large size of the country and its many areas of difficult access. The country has a vast territory (8.5 million square kilometers), and some areas, such as the Amazon forest region or remote towns and villages in the countryside, have a poor telecommunications infrastructure and insufficient transportation facilities. Nonetheless, it is quite an accomplishment that no cheque takes more than six working days to be cleared (except in a very few remote areas). The country is divided into 32 regions for cheque clearing purposes. Cheques drawn and presented in some of these regions (a number of which are larger than some European countries) are cleared in 24 hours;
+* all interbank settlements are made through central bank reserve accounts (because there is a regulatory restriction that prohibits banks from holding balances with each other);
+* the post office service, unlike in other countries, is not widely used for financial transfers;
+* cooperation between payment system participants, especially in checque processing and transportation;
+* the large number of banks, which necessitates a highly developed interbank clearing and settlement system, and a highly developed securities market; and
+* a highly concentrated banking industry.
+
+## Framework for the Brazilian payment and settlement system
+The Brazilian payment system has many specialised systems for clearing and settlement. All these systems are connected to the central bank's mainframe computer (SISBACEN), which provides 24-hour access. Since financial institutions are not allowed to hold balances with each other, the central bank provides interbank settlement services for all payments. It functions as a settlement agent since the fianncial settlement of all transactions is made against the banks' reserve accounts at the central bank.
+
+Our main clearing and settlement systems are:
+a. SELIC (Special System of Custody and Liquidation of Federal Securities)
+b. CETIP (Central Custody and Financial Clearing of Securities)
+c. COMPE
+d. EXCHANGE SYSTEM
+e. SISBACEN
+
 
