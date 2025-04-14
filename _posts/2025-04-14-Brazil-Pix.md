@@ -1,9 +1,14 @@
 ---
-title: "Brazil's exprience in modernising the payment system to increase efficiency and reduce risks"
+title: "Brazil's payment system"
 layout: post
 ---
 
+Brazil's experience in modernising the payment system to increase efficiency and reduce risks
 [https://www.bis.org/publ/plcy04n.pdf](https://www.bis.org/publ/plcy04n.pdf)
+
+Retail Payment Systems in Brazil
+[https://www.cemla.org/forodepagos/pdf/week2005/ppt-marciano.pdf](https://www.cemla.org/forodepagos/pdf/week2005/ppt-marciano.pdf)
+
 
 ## Introducing the Brazilian payment system
 The main payment instruments and networks in Brazil are:
@@ -32,10 +37,10 @@ The principal factors affecting the Brazilian payment system are:
 The Brazilian payment system has many specialised systems for clearing and settlement. All these systems are connected to the central bank's mainframe computer (SISBACEN), which provides 24-hour access. Since financial institutions are not allowed to hold balances with each other, the central bank provides interbank settlement services for all payments. It functions as a settlement agent since the fianncial settlement of all transactions is made against the banks' reserve accounts at the central bank.
 
 Our main clearing and settlement systems are:
-a. SELIC (Special System of Custody and Liquidation of Federal Securities)
-b. CETIP (Central Custody and Financial Clearing of Securities)
-c. COMPE
-d. EXCHANGE SYSTEM
-e. SISBACEN
+1. SELIC (Special System of Custody and Liquidation of Federal Securities) - an electronic system controlled by the central bank, which registers transactions and maintains in book-entry form federal bonds and bills issued by the central bank and the Treasury. It also maintains some state and local government securities. SELIC settles on a net basis;
+2. CETIP (Central Custody and Financial Clearing of Securities) - a private securities trading and transfer system. It also provides settlement for stock and futures exchange trading and deals in public securities issued by states and local governements. CETIP also settles on a net basis;
+3. COMPE - a system in which cheques, DOCs and bar-coded remittance documents are cleared. Almost 98% of the total value of these documents is processed electronically;
+4. EXCHANGE SYSTEM - an electronic system controlled by the central bank whose transactions are input by the institutions directly into SISBACEN. Each operation is individually settled;
+5. SISBACEN (Central Bank Information System) - this system provides 24-hour access to a vast amount of information produced by the central bank and operates currency exchange transactions with selected dealers in the domestic market. The system has links to both national (SELIC, CETIP) and international (SWIFT, CHIPS) systems.
 
-
+![Brazil Clearing and Settlement Infrastructure](/assets/2025-04-Brazil-payment-system/Brazil-infrastructure.png)
