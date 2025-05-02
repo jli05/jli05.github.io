@@ -181,3 +181,5 @@ One may verify that given B's observations, A's system "at rest" would record
 </math>
 
 From the last equation, if <math><mi>u</mi></math> is close to the lightspeed, the denominator can be infinitely small, as long as <math><msup><mi>t</mi><mo>&apos;</mo></msup><mo>&gt;</mo><mn>0</mn></math>, <math><mi>t</mi></math> can be infinitely large. Hence why they say "one second in a lightspeed starship is a lifetime on earth."
+
+Actually one may show when one moves at variable speed, the above equations still hold.
