@@ -3,13 +3,12 @@ title: 'Write a boot sector to say "Hello!"'
 layout: post
 ---
 
-[BIOS](https://en.wikipedia.org/wiki/BIOS) stands for Basic Input Output System. On an IBM PC compatible machine, it provides basic routines for input/output, and governs the booting process till an Operating System takes over. This system has been somehow superceded by UEFI. But for its simplicity, we will write a boot sector that displays "Hello!" on Intel or AMD's i386 or x86_64 architecture.
 
 ## How does IBM PC and compatible boot?
-On an IBM PC compatible machine, once the [Power-On Self Test](https://en.wikipedia.org/wiki/Power-on_self-test) (POST) is run, the BIOS selects a boot device, then copies the first sector from the device, into physical memory at memory address 0x7C00, and transfers control to that boot sector. On other systems, the process may be quite different.
+On an IBM PC compatible machine, once the [Power-On Self Test](https://en.wikipedia.org/wiki/Power-on_self-test) (POST) is run, the [BIOS](https://en.wikipedia.org/wiki/BIOS) selects a boot device, then copies the first sector from the device into physical memory at memory address 0x7C00, and transfers control to that boot sector.
 
-## A Boot Sector in `nasm` assembly language
-Different assemblers may have different syntax. Below is written for `nasm`. Its documentation can be found at [https://www.nasm.us/xdoc/2.16.03/html/nasmdoc0.html](https://www.nasm.us/xdoc/2.16.03/html/nasmdoc0.html).
+## A boot sector in assembly code
+Below is written for the `nasm` assembler. Its documentation can be found at [https://www.nasm.us/xdoc/2.16.03/html/nasmdoc0.html](https://www.nasm.us/xdoc/2.16.03/html/nasmdoc0.html).
 
 `boot_sect.asm`:
 
@@ -46,27 +45,27 @@ db 0x55, 0xaa    ; last two magic bytes for the boot sector: 0x55, 0xaa
                  ; to make it 512 bytes in total for one sector
 ```
 
-Numbers starting with `0x` are heximal (0-9, a-f, for 0-15 by a single letter). In `nasm`, a heximal number can be written in various ways: preceded by `0x`, or ending by `h`.
+Numbers starting with `0x` are heximal (0-9 and a-f, representing the decimal 0-15 by a single letter). In `nasm`, a heximal number can be written in various ways: preceded by `0x`, or ending by `h`.
 
 `0x0e`, `0xe`, `0eh`
 
-are all one same number, but `eh` is not allowed, as it confuses with potential register name `eh`.
+are all one same number, but `eh` is not, as it confuses with potential register name `eh`.
 
-The line
+The interrupt call
 
 `int 0x10`
 
-is for accessing video services. Depending on the value in the register `ah`, it performs different jobs. For a complete table of the interrupts provided by BIOS, refer to [https://en.wikipedia.org/wiki/BIOS_interrupt_call](https://en.wikipedia.org/wiki/BIOS_interrupt_call).
+is for accessing video services. Depending on the value in the register `ah`, it performs different jobs, such as displaying a letter or setting a colour. Refer to [https://en.wikipedia.org/wiki/BIOS_interrupt_call](https://en.wikipedia.org/wiki/BIOS_interrupt_call) for a complete table of the interrupt calls.
 
 
 ## Compile the assembly file into binary for the boot sector
-Run in the shell
+The assembly text file need be converted into a binary file to occupy the boot sector. Run in the shell
 
 ```sh
 nasm -f bin -o boot_sect.bin boot_sect.asm
 ```
 
-The parameter `-f bin` is for producing raw binary file. `-o boot_sect.bin` indicates the file to be produced.
+The parameter `-f bin` specifies format of output: a raw binary file, `-o boot_sect.bin` indicates the file name for output.
 
 We can dump the content of `boot_sect.bin` with
 
@@ -78,11 +77,46 @@ The parameter `-A d` displays address in decimal number, `-t x1` displays each b
 
 ![dump boot_sect.bin](/assets/2025-05-boot-sector/dump-decimal-address.png)
 
-We can see the sector on the disk corresponds to address 0000-0511 (in decimal numbers). That is 512 bytes in total. When loaded into memory, the first byte will reside at address 0x7c00 in the memory, the second at 0x7c01 in the memory, so on and so forth. The last byte will be loaded at 0x7dff in the memory. The next unoccupied address will be 0x7e00. Below is a chart of memory use for i386 or x86_64 architecture.
+We can see the sector on the disk corresponds to address 0000-0511 (in decimal numbers). That is 512 bytes in total. When loaded into memory, the first byte will reside at address 0x7c00 in the memory, the second at 0x7c01 in the memory, so on and so forth. Below is a chart of memory use for i386 or x86_64 architecture.
 
 ![PC memory](/assets/2025-05-boot-sector/pc-memory.png)
 
 Writing a Simple Operating System -- from Scratch, by Nick Blundell, pp 14.
 
-## Let's play with the boot sector!
+According to Wikipedia, the memory 0xc0000-0xf0000 is used by "option ROM modules" during the [system startup](https://en.wikipedia.org/wiki/BIOS#System_startup) process.
 
+## What does "carriage return" or "line feed" do separately?
+How to "run" the boot sector? We need an emulator that simulates the i386 or x86_64 startup process as on physical hardware. [qemu](https://www.qemu.org/) is a commonly used one. After installation, run in the shell
+
+```sh
+qemu-system-i386 -nographic -drive format=raw,file=boot_sect.bin,if=floppy
+```
+
+or
+
+```sh
+qemu-system-x86_64 -nographic -drive format=raw,file=boot_sect.bin,if=floppy
+```
+
+One will see the following screen. The cursor is placed correctly, after first printing the 13th (0dh) ASCII letter carriage return then the 10th (0ah) ASCII letter line feed. In the side bar at the top of [ASCII](https://en.wikipedia.org/wiki/ASCII) one would find the chart for the 256 letters.
+
+![booting screen with carriage return and line feed](/assets/2025-05-boot-sector/boot-cr-lf.png)
+
+If we change the assembly, only print the carriage return, we will see the cursor goes to the first letter but stays on the same row.
+
+![booting screen with only carriage return](/assets/2025-05-boot-sector/boot-cr.png)
+
+If we change the assembly, only print the line feed, we will see the cursor goes to the next line but does not go to the first letter position.
+
+![booting screen with only line feed](/assets/2025-05-boot-sector/boot-lf.png)
+
+## Magic number of the boot sector
+Did you note the assembly code writes two bytes at the end of the boot sector?
+
+```asm
+db 0x55, 0xaa
+```
+
+`db` for "declare byte". A boot sector has to terminate with these two bytes. If we change them to `0xbb, 0xaa`, we will get
+
+![booting screen for boot sector with wrong magic number](/assets/2025-05-boot-sector/wrong-magic-number.png)
