@@ -73,11 +73,19 @@ We can dump the content of `boot_sect.bin` with
 od -A d -t x1 boot_sect.bin
 ```
 
-The parameter `-A d` displays address in decimal number, `-t x1` displays each byte in heximal number.
+The parameter `-A d` displays address in decimal number, `-t x1` displays each byte in heximal number. The dump looks like
 
-![dump boot_sect.bin](/assets/2025-05-boot-sector/dump-decimal-address.png)
+```
+0000000 b4 0e b0 48 cd 10 b0 65 cd 10 b0 6c cd 10 b0 6c
+0000016 cd 10 b0 6f cd 10 b0 21 cd 10 b0 0d cd 10 b0 0a
+0000032 cd 10 eb fe 00 00 00 00 00 00 00 00 00 00 00 00
+0000048 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+*
+0000496 00 00 00 00 00 00 00 00 00 00 00 00 00 00 55 aa
+0000512
+```
 
-We can see the sector on the disk corresponds to address 0000-0511 (in decimal numbers). That is 512 bytes in total. When loaded into memory, the first byte will reside at address 0x7c00 in the memory, the second at 0x7c01 in the memory, so on and so forth. Below is a chart of memory use for i386 or x86_64 architecture.
+We can see the sector corresponds to address 0000-0511 (in decimal numbers) on the disk: 512 bytes in total. When loaded into memory, the first byte will reside at address 0x7c00 in the memory, the second at 0x7c01 in the memory, so on and so forth. Below is the use of the first 1 megabyte memory on i386 or x86_64 architecture.
 
 ![PC memory](/assets/2025-05-boot-sector/pc-memory.png)
 
