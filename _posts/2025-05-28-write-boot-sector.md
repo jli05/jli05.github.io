@@ -125,6 +125,6 @@ Did you note the assembly code writes two bytes at the end of the boot sector?
 db 0x55, 0xaa
 ```
 
-`db` for "declare byte". A boot sector has to terminate with these two bytes. If we change them to `0xbb, 0xaa`, we will get
+`db` for "declare byte". A boot sector has to terminate with these two bytes. If we change them to `0xbb, 0xaa`, the booting will fail as below.
 
 ![booting screen for boot sector with wrong magic number](/assets/2025-05-boot-sector/wrong-magic-number.png)
