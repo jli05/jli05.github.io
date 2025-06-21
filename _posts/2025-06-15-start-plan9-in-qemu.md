@@ -1,5 +1,5 @@
 ---
-title: Start Plan 9 in qemu
+title: Start the Plan 9 installation disk in qemu
 layout: post
 ---
 
