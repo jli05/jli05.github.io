@@ -31,6 +31,8 @@ _start:
     svc #0
 ```
 
+Launch a virtual machine with Graviton (ARM) core on Amazon Web Services (AWS). Install Linux on it.
+
 To assemble the text file of assembly instructions into binary code and run it,
 
 ```sh
