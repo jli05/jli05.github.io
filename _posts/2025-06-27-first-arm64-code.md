@@ -22,12 +22,18 @@ _start:
     // the x8 register stores the number of the Linux function to call
 
     // first param for exit(), the return value decimal 42
+    // constants are preceded by hash sign
     mov x0, #42
 
     // x8: 0x5d for the function exit()
+    // refer to the Linux System Call Table reference below
+    // for function numbers
+    // constants are preceded by hash sign
+    // heximal numbers are preceded by 0x
     mov x8, #0x5d
 
     // trigger software interrupt
+    // the param following the svc word does not matter
     svc #0
 ```
 
