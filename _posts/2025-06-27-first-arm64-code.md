@@ -5,7 +5,7 @@ layout: post
 
 Following the [ARM assembly tutorial](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg) of LaurieWired,
 
-`tmp/hello.s`:
+`hello.s`:
 
 ```asm
 // the _start routine will be visible to external programs 
@@ -42,18 +42,18 @@ Launch a virtual machine with Graviton (ARM) core on Amazon Web Services (AWS). 
 To assemble the text file of assembly instructions into binary code and run it,
 
 ```sh
-$ as -o tmp/hello.o tmp/hello.s    # assemble into an object file
-$ gcc -o tmp/hello tmp/hello.o -nostdlib   # link into an executable file
-$ tmp/hello; echo $?      # returns decimal 42
+$ as -o hello.o hello.s    # assemble into an object file
+$ gcc -o hello hello.o -nostdlib   # link into an executable file
+$ ./hello; echo $?      # returns decimal 42
 42
 ```
 
 To disassemble the binary code back to the assembly instructions in text,
 
 ```sh
-$ objdump -d tmp/hello.o
+$ objdump -d hello.o
 
-tmp/hello.o:     file format elf64-littleaarch64
+hello.o:     file format elf64-littleaarch64
 
 
 Disassembly of section .text:
@@ -65,9 +65,9 @@ Disassembly of section .text:
 ```
 
 ``` sh
-$ objdump -d tmp/hello
+$ objdump -d hello
 
-tmp/hello:     file format elf64-littleaarch64
+hello:     file format elf64-littleaarch64
 
 
 Disassembly of section .text:
