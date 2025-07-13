@@ -78,7 +78,11 @@ Disassembly of section .text:
  1f4:	d4000001 	svc	#0x0
 ```
 
+For the code calling system exit() on Apple Silicon, refer to [Intro to 64bit ARM Assembly](https://www.youtube.com/watch?v=3ixTKrE8lv8) by Nick Thompson.
+
 ## References
 ARM assembly tutorial, @LaurieWired, [https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg)
 
 Linux System Call Table, [https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#arm64-64-bit](https://www.chromium.org/chromium-os/developer-library/reference/linux-constants/syscalls/#arm64-64-bit)
+
+Intro to 64bit ARM Assembly: from basics to party tricks [https://www.youtube.com/watch?v=3ixTKrE8lv8](https://www.youtube.com/watch?v=3ixTKrE8lv8)
