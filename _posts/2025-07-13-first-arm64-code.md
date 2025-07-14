@@ -1,9 +1,14 @@
 ---
-title: My first ARM64 assembly program
+title: The first ARM64 assembly program
 layout: post
 ---
 
-Following the [ARM assembly tutorial](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg) of LaurieWired,
+This article accompanies the Lesson 1 "Exit syscall" of LaurieWired in the [ARM assembly tutorial](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg).
+
+## Set up the toolchain
+Launch a virtual machine with Graviton (ARM) core on Amazon Web Services (AWS). Install a 64-bit Linux on it and the gcc toolchain.
+
+## The first assembly calling exit()
 
 `hello.s`:
 
@@ -37,7 +42,6 @@ _start:
     svc #0
 ```
 
-Launch a virtual machine with Graviton (ARM) core on Amazon Web Services (AWS). Install Linux on it.
 
 To assemble the text file of assembly instructions into binary code and run it,
 
@@ -49,20 +53,6 @@ $ ./hello; echo $?      # returns decimal 42
 ```
 
 To disassemble the binary code back to the assembly instructions in text,
-
-```sh
-$ objdump -d hello.o
-
-hello.o:     file format elf64-littleaarch64
-
-
-Disassembly of section .text:
-
-0000000000000000 <_start>:
-   0:	d2800540 	mov	x0, #0x2a                  	// #42
-   4:	d2800ba8 	mov	x8, #0x5d                  	// #93
-   8:	d4000001 	svc	#0x0
-```
 
 ``` sh
 $ objdump -d hello
@@ -78,7 +68,7 @@ Disassembly of section .text:
  1f4:	d4000001 	svc	#0x0
 ```
 
-For the code calling system exit() on Apple Silicon, refer to [Intro to 64bit ARM Assembly](https://www.youtube.com/watch?v=3ixTKrE8lv8) by Nick Thompson.
+For the same code on Apple Silicon, refer to [Intro to 64bit ARM Assembly](https://www.youtube.com/watch?v=3ixTKrE8lv8) by Nick Thompson.
 
 ## References
 ARM assembly tutorial, @LaurieWired, [https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg)
