@@ -36,7 +36,7 @@ var2: .word 6     // decimal 6
 The code in this article has to be linked with `-static` flag, or an error will be produced. To run it in the shell:
 
 ```sh
-$ rm ldr.o; as -o ldr.o ldr.s
+$ as -o ldr.o ldr.s
 $ gcc -o ldr ldr.o -nostdlib -static
 $ ./ldr; echo $?
 6
@@ -131,7 +131,7 @@ var2: .word 6
 It would still return decimal number 6:
 
 ```sh
-$ rm ldr.o; as -o ldr.o ldr.s
+$ as -o ldr.o ldr.s
 $ gcc -o ldr ldr.o -nostdlib -static
 $ ./ldr; echo $?
 6
@@ -199,7 +199,7 @@ var2: .word 7
 To run it,
 
 ```sh
-$ rm str.o; as -o str.o str.s
+$ as -o str.o str.s
 $ gcc -o str str.o -nostdlib -static
 $ ./str; echo $?
 5
