@@ -3,7 +3,7 @@ title: ARM64 LDR (load register) and STR (store register) instructions
 layout: post
 ---
 
-This article accompanies Lesson 3 "LDR, STR" of LaurieWired in the [ARM assembly tutorial](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg).
+This article accompanies Lesson 3 "LDR, STR" of LaurieWired in the [ARM assembly tutorial](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg). Refer to the [The first ARM64 assembly program](/2025/07/13/first-arm64-code.html) for how to call Linux (for ARM64) `exit()` to end execution.
 
 ## Documentation for ARM32 and ARM64 assembly
 On [https://developer.arm.com](https://developer.arm.com), search for "armasm user guide". In the result list, one may find 
@@ -204,3 +204,10 @@ $ gcc -o str str.o -nostdlib -static
 $ ./str; echo $?
 5
 ```
+
+## References
+ARM assembly tutorial, @LaurieWired, [https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg)
+
+First ARM64 assembly program, [/2025/07/13/first-arm64-code.html](/2025/07/13/first-arm64-code.html)
+
+Arm Compiler armasm User Guide. On [https://developer.arm.com](https://developer.arm.com), search for "armasm user guide". In the result list, find the latest version of "Arm Compiler armasm User Guide".

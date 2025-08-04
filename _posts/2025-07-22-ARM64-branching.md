@@ -5,7 +5,7 @@ layout: post
 
 This article accompanies Lesson 7 CMP, Lesson 8 Branching of the [ARM64 assembly tutorial](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg) of LaurieWired.
 
-ARM64 is quite similar to ARM32 in branching instructions. The [AArch64 control transfer](https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975) blog post gave a full summary of the branching instructions in ARM64.
+ARM64 is quite similar to ARM32 in branching instructions. The [AArch64 control transfer](https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975) blog post gave a full summary of the branching instructions in ARM64. Refer to the [The first ARM64 assembly program](/2025/07/13/first-arm64-code.html) for how to call Linux (for ARM64) `exit()` to end execution.
 
 ## Compare numbers
 `branch.s`:
@@ -80,3 +80,7 @@ $ ./branch2; echo $?
 ARM64 assembly tutorial, LaurieWired, [https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg](https://www.youtube.com/playlist?list=PLn_It163He32Ujm-l_czgEBhbJjOUgFhg).
 
 AArch64 control transfer, Raymond Chen, [https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975](https://devblogs.microsoft.com/oldnewthing/20220815-00/?p=106975).
+
+First ARM64 assembly program, [/2025/07/13/first-arm64-code.html](/2025/07/13/first-arm64-code.html)
+
+Arm Compiler armasm User Guide. On [https://developer.arm.com](https://developer.arm.com), search for "armasm user guide". In the result list, find the latest version of "Arm Compiler armasm User Guide".
