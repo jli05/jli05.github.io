@@ -29,7 +29,7 @@ int main() {
 what remains is to write an `add.s`, and eventually link it with `main.c` to produce the executable file.
 
 ## The adding function in assembly
-Recall that all constants are preceded by `#`. `0x` denotes heximal, otherwise decimal. So `#0x10` is the heximal 10, equivalent to decimal 16. `#12` is just the decimal 12.
+Recall that all constants are preceded by `#`. `0x` denotes hexadecimal, otherwise decimal. So `#0x10` is the hexadecimal 10, equivalent to decimal 16. `#12` is just the decimal 12.
 
 `add.s`:
 
