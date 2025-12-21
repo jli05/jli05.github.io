@@ -23,3 +23,6 @@ QEMU 8.0.5 monitor - type 'help' for more information
 The `<ipv4>:0` would map to port 5900, `<ipv4>:1` port 5901, so on and so forth.
 
 With a VNC client, connect to `vnc://<public_ipv4>:5900`. The `<public_ipv4>` is the public IPv4 address of the machine running Plan 9. Type in the password configured in qemu monitor.
+
+## To install Plan 9
+The installation disk is read-only. One has to install it in order to do and save work. The [next post](/2025/06/21/9front-qemu-setup.html) has more on that. Note we will start the installation disk with more CPU and memory.
