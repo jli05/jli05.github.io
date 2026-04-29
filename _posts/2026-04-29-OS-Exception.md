@@ -15,4 +15,10 @@ When the program faults, the `sepc` points to the line
    __asm__ __volatile__("unimp");
 ```
 
-which may not be 4-byte aligned, but if one does `llvm-objdump -d kernel.elf`, the address of `kernel_entry` is indeed 4-byte aligned.
+which may not be 4-byte aligned, but if one disassembles `kernel.elf` with
+
+```sh
+llvm-objdump -d kernel.elf
+```
+
+the address of `kernel_entry` the exception handler is indeed 4-byte aligned.
