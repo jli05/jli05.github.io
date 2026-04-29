@@ -11,7 +11,7 @@ In RISC-V64, `kernel_entry` should still be aligned to 4 bytes. [Supervisor Trap
 
 When the program faults, the `sepc` points to the line
 
-```
+```c
    __asm__ __volatile__("unimp");
 ```
 
