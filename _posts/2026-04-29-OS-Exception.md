@@ -7,7 +7,7 @@ This is a companion note to [OS in 1,000 lines: Exception](https://operating-sys
 
 When `kernel_entry` calls `handle_trap`, `a0` would be the first parameter to `handle_trap`, which would be interpreted as a pointer to a `trap_frame` pointer.
 
-In RISC-V64, `kernel_entry` should still be aligned to 4 bytes. [Supervisor Trap Vector Base Address (stvec) Register](https://docs.riscv.org/reference/isa/priv/supervisor.html#12-1-1-2-supervisor-trap-vector-base-address-stvec-register)
+In RISC-V64, `kernel_entry` should still be aligned to 4 bytes. From [https://github.com/riscv/riscv-isa-manual](https://github.com/riscv/riscv-isa-manual), click on the snapshot link to the priviledged instructions, then go to the section "Supervisor Trap Vector Base Address (stvec) Register" under the chapter "Supervisor-level ISA".
 
 When the program faults, the `sepc` points to the line
 
