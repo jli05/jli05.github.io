@@ -1,5 +1,5 @@
 ---
-title: Clean generated data files
+title: Clean old files periodically
 layout: post
 ---
 
