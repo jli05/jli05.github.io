@@ -5,7 +5,7 @@ layout: post
 
 [Plan 9](https://en.wikipedia.org/wiki/Plan_9_from_Bell_Labs) is a computer operating system intended as successor to Unix. The last edition the 4th was released in 2002, after which various forks survived on.
 
-![Plan 9 chronology](/assets/2025-05-Plan9/Plan9-chrono.pdf)
+![Plan 9 chronology]({{ site.url }}/assets/2025-05-Plan9/Plan9-chrono.pdf)
 
 At this moment, resource about Plan 9 is sometimes scattered, sometimes scarce. Below is a summary:
 
