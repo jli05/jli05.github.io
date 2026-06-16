@@ -9,6 +9,7 @@ Most documentation is on [https://wiki.alpinelinux.org/wiki/Main_Page](https://w
 
 At the moment, [cloud image](https://www.alpinelinux.org/cloud/)  is available for AWS. The ssh login user name is `alpine` by default. After the first install on a t4g.nano instance with 2 vCPUs, 0.5 GB memory, 390 MB memory is free for use, in contrast to the installation of Amazon Linux 2023 on the same instance, which leaves 300 MB memory free for use.
 
+## Package Management
 Use `doas` for `sudo`, `apk` for `yum` or `apt` as software package manager.
 
 ```sh
@@ -23,6 +24,13 @@ doas poweroff
 doas reboot
 ```
 
+`build-base` is the basic package of development toolchains.
+
+```sh
+doas apk add build-base
+```
+
+## User Profile
 The commands to be executed after a user's login is saved in `$HOME/.profile`. For example, to customise the search `PATH`, add into `$HOME/.profile`
 
 ```
@@ -30,6 +38,7 @@ PATH=$PATH:<path>
 export PATH
 ```
 
+## System Services
 The background services (aka init system) are managed by [OpenRC](https://github.com/OpenRC/openrc). For example, to start the `crond` daemon for the crontab service,
 
 ```sh
