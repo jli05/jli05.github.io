@@ -1,5 +1,5 @@
 ---
-title: 'Write a boot sector to say "Hello!"'
+title: 'Write a boot sector to say "Hello!" on x86'
 layout: post
 ---
 
