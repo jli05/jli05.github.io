@@ -1,9 +1,0 @@
-_site
-.sass-cache
-*.markdown~
-*.md~
-*~
-.jekyll-metadata
-*.swp
-
-.DS_Store
